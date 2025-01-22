@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<title>Teams Company</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="files/swiper-bundle.min.css">
+	<link rel="stylesheet" href="files/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="img/favicon.svg">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container container">
+				<a href="#" class="header__logo">
+					<img src="img/logo.svg" width="70" height="20" alt="logo">
+				</a>
+				<div class="header__menu">
+					<nav class="menu__body">
+						<ul id="menu-main-menu" class="menu__list menu sf-menu">
+							<li class="menu-item  current-menu-item current_page_item menu__item">
+								<a class="menu__link" href="#" aria-current="page">Головна</a>
+							</li>
+							<li data-spollers="1279" class="spollers">
+								<details class="spollers__item">
+									<summary class="spollers__title menu__link _icon-Plus">
+										про компанію
+									</summary>
+									<div class="spollers__body">
+										<a class="menu__link" href="contacts.html">історія компанії</a>
+										<a class="menu__link" href="teams.html">наша команда</a>
+										<a class="menu__link" href="association.html">члени асоціації</a>
+										<a class="menu__link" href="partners.html">партнери</a>
+									</div>
+									<div class="submenu submenu--company">
+										<div class="submenu__container">
+											<a class="submenu__link" href="teams.html">історія компанії</a>
+											<a class="submenu__link" href="teams.html">наша команда</a>
+											<a class="submenu__link" href="association.html">члени
+												асоціації</a>
+											<a class="submenu__link" href="partners.html">партнери</a>
+										</div>
+									</div>
+								</details>
+							</li>
+							<li class="menu-item menu__item d-none">
+								<a class="menu__link" href="#">новини та статті</a>
+							</li>
+							<li data-spollers="1279" class="spollers d-none">
+								<details class="spollers__item">
+									<summary class="spollers__title menu__link _icon-Plus">
+										лобіювання
+									</summary>
+									<div class="spollers__body">
+										<a class="menu__link" href="#">підтримка АПК</a>
+										<a class="menu__link" href="#">земля</a>
+										<a class="menu__link" href="#">освіта та наука</a>
+										<a class="menu__link" href="#">техніка</a>
+										<a class="menu__link" href="#">інше</a>
+									</div>
+									<div class="submenu submenu--company">
+										<div class="submenu__container">
+											<a class="submenu__link" href="#">підтримка АПК</a>
+											<a class="submenu__link" href="#">земля</a>
+											<a class="submenu__link" href="#">освіта та наука</a>
+											<a class="submenu__link" href="#">техніка</a>
+											<a class="submenu__link" href="#">інше</a>
+										</div>
+									</div>
+								</details>
+							</li>
+							<li class="menu-item menu__item">
+								<a class="menu__link" href="contacts.html">контакти</a>
+							</li>
+						</ul>
+						<div class="header__search-box">
+							<form class="bar">
+								<div class="bar__input-holder">
+									<input class="search-input" type="search" name="search" pattern=".*\S.*" required autocomplete="off" placeholder="Почніть вводити пошуковий запит">
+									<span class="search-icon _icon-Search"></span>
+									<span class="clear-search">✕</span>
+								</div>
+								<button class="search-btn _icon-Search" type="button">
+								</button>
+							</form>
+							<a class="button button--m-teal" data-fancybox data-src="#consultation-modal" href="javascript:;">консультація</a>
+						</div>
+						<div class="header__contacts contacts">
+							<div class="contacts__text-holder">
+								<p>АСОЦІАЦІЯ «АГРАРНИЙ КЛУБ»<br>
+									вул. Вокзальна, 11/1, смт Глеваха, Київська обл., 08631, Код ЄДРПОУ 45297491</p>
+							</div>
+							<div class="contacts__link-box">
+								<a class="_icon-PhoneCalling" href="tel:+380665589877">+38 (066) 558 98 77</a>
+								<a class="_icon-Letter" href="mailto:agrarianclub@ukr.net">agrarianclub@ukr.net</a>
+							</div>
+						</div>
+					</nav>
+					<div class="header__buttons-box">
+						<form class="bar-mobile">
+							<div class="bar-mobile__input-holder">
+								<input class="search-input-mobile" id="search-input" type="search" name="search" pattern=".*\S.*" required autocomplete="off" placeholder="Почніть вводити пошуковий запит">
+								<span class="search-icon-mobile _icon-Search"></span>
+								<span class="clear-search-mobile">✕</span>
+							</div>
+							<button class="search-btn-mobile _icon-Search" type="button">
+							</button>
+						</form>
+						<div class="menu-button">
+							<span>Меню</span>
+							<div class="menu-button__icon _icon-Menu"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="breadcrumbs" id="breadcrumbs-section">
+				<div class="breadcrumbs__container container">
+					<div class="breadcrumbs__list">
+						<span>
+							<span>
+								<a href="https://agrarian.creation.pp.ua/">головна</a>
+							</span>
+							<span class="brDevider">
+								<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M5.67461 3.63039C5.88428 3.45068 6.19993 3.47496 6.37964 3.68462L10.3796 8.35129C10.5401 8.53853 10.5401 8.81484 10.3796 9.00208L6.37964 13.6687C6.19993 13.8784 5.88428 13.9027 5.67461 13.723C5.46495 13.5433 5.44067 13.2276 5.62038 13.018L9.34147 8.67669L5.62038 4.33541C5.44067 4.12575 5.46495 3.8101 5.67461 3.63039Z" fill="#2C3333" />
+								</svg>
+							</span>
+							<span aria-current="page">історія та команда</span>
+						</span>
+					</div>
+				</div>
+			</section>
+			<div class="bg-cover">
+				<div class="parallax-bg parallax bg-holder" style="background-image: url('img/parallax-bg-01.jpg');">
+				</div>
+			</div>
+			<div class="inner-page">
+				<section class="cta" id="cta-section">
+					<div class="cta__container container">
+						<div class="cta__left-col">
+							<div class="cta__content">
+								<h2 class="cta__title title-big">Історія компанії "Аграрний клуб"</h2>
+								<div class="cta__text-holder paragraph">
+									<p>Асоціація «Аграрний клуб» заснована в 2023 році провідними експертами агропромислового
+										комплексу і покликана об'єднати фахівців, бізнес-лідерів та всіх зацікавлених учасників
+										АПК
+										для спільної праці над стратегіями розвитку та вдосконалення галузі, боротьби з наслідками
+										військового вторгнення російської федерації та рядом некомпетентних рішень представників
+										центральних органів виконавчої влади. </p>
+								</div>
+							</div>
+							<div class="text-block">
+								<div class="text-block__content">
+									<h2>«Аграрний клуб»</h2>
+									<div class="text-holder">
+										<p>
+											- це спільнота фахівців, які об'єднуються для створення ефективних рішень та реалізації
+											інновацій у сільському господарстві. Наша платформа сприяє обміну ідеями, впровадженню
+											передових практик та співпраці, спрямованій на зміцнення та підвищення
+											конкурентоспроможності аграрного сектору.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cta__right-col">
+							<div class="cta__image-holder">
+								<picture><source srcset="img/cta-img.webp" type="image/webp"><img src="img/cta-img.png" width="257" height="233" alt="image"></picture>
+							</div>
+							<div class="message">
+								<div class="message__text-holder">
+									<p>“Разом ми створюємо сильну спільноту аграріїв, збагачуючи один одного знаннями та
+										досвідом,
+										щоб
+										досягти успіху в сільському господарстві.</p>
+									<p>Наш клуб - це місце, де ми надихаємося і розвиваємося разом, прагнучи інновацій та
+										процвітання
+										кожного
+										члена!”</p>
+								</div>
+								<div class="message__footer">
+									<div class="message__author">
+										<span>Джон Смит</span>
+										<p>Президент Аграрного Клуба</p>
+									</div>
+									<div class="message__logo">
+										<img src="img/message-logo.svg" width="16" height="16" alt="logo">
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="company-values">
+					<div class="company-values__container container">
+						<div class="company-values__left-col">
+							<h3 class="company-values__subtitle subtitle">Цінності компанії:</h3>
+							<div class="company-values__items">
+								<div class="company-values__item">Професіоналізм та експертність</div>
+								<div class="company-values__item">Етичність</div>
+								<div class="company-values__item">Співпраця і комунікація</div>
+								<div class="company-values__item">Увага до кожного клієнта</div>
+								<div class="company-values__item">Спільний інтерес і підтримка</div>
+								<div class="company-values__item">Ваші проблеми - наші виклики</div>
+							</div>
+						</div>
+						<div class="company-values__right-col">
+							<div class="company-values__logo">
+								<img src="img/logo-mint.svg" width="70" height="20" alt="logo">
+							</div>
+							<div class="company-values__text-box text-box">
+								<div class="text-box__left-col">
+									<div class="text-box__icon-holder _icon-Crown">
+									</div>
+								</div>
+								<div class="text-box__right-col">
+									<h4 class="text-box__subtitle subtitle">Наша місія</h4>
+									<div class="text-box__text-holder paragraph">
+										<p>Координація та консультативне сприяння господарської діяльності Членів Асоціації.</p>
+									</div>
+								</div>
+							</div>
+							<div class="company-values__text-box text-box">
+								<div class="text-box__left-col">
+									<div class="text-box__icon-holder _icon-Smile">
+									</div>
+								</div>
+								<div class="text-box__right-col">
+									<h4 class="text-box__subtitle subtitle">Наше бачення</h4>
+									<div class="text-box__text-holder paragraph">
+										<p>Згуртувати партнерів для злагодження діяльності відповідно до чинного законодавства а
+											також вдосконалювати його з метою досягнення розвитку сільського господарства.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="team" id="team-section">
+					<div class="team__container container">
+						<div class="team__header">
+							<div class="team__logo">
+								<img src="img/logo-art-white.svg" width="100" height="92" alt="logo">
+							</div>
+							<h2 class="team__title title">Команда “Аграрного клубу”</h2>
+							<h4 class="team__subtitle subtitle">Сплоченість у Досягненні Інновацій</h4>
+							<div class="team__text-holder paragraph">
+								<p>Ласкаво просимо до нашої спільноти експертів, які об'єднали свої зусилля з метою революції у світі
+									сільського господарства та аграрних технологій. Наша команда складається з висококваліфікованих
+									професіоналів, які не тільки мають глибокі знання в галузі сільськогосподарських наук, але й мають
+									великий досвід реалізації інноваційних проектів.</p>
+							</div>
+						</div>
+						<div class="team__content">
+							<div class="team__slider swiper slider-team">
+								<div class="team__wrapper swiper-wrapper">
+									<a data-fancybox data-src="#profile-01" href="javascript:;" class="team__slide swiper-slide slide-team">
+										<div class="slide-team__image-holder">
+											<picture><source srcset="img/team-img-03.webp" type="image/webp"><img src="img/team-img-03.jpg" width="256" height="186" alt="image"></picture>
+										</div>
+										<div class="slide-team__inner">
+											<div class="slide-team__content">
+												<div class="slide-team__name subtitle">Адамчук Олег Валерійович</div>
+												<div class="slide-team__subtitle subtitle">Освіта:</div>
+												<div class="slide-team__text-holder paragraph">
+													<p>В 2003 році закінчив Національний аграрний університет (м. Київ), магістр, спеціальність –
+														Машини та обладнання сільськогосподарського виробництва</p>
+													<p>Кандидат технічних наук (спеціальність - Машини і засоби механізації сільськогосподарського
+														виробництва) </p>
+												</div>
+												<div class="slide-team__position paragraph-bold">
+													<p>Президент Асоціації «Аграрний клуб» </p>
+												</div>
+											</div>
+											<span class="link link--xs _icon-ArrowSquareIn">Детальна інформація</span>
+										</div>
+									</a>
+									<a data-fancybox data-src="#profile-02" href="javascript:;" class="team__slide swiper-slide slide-team">
+										<div class="slide-team__image-holder">
+											<picture><source srcset="img/team-img-02.webp" type="image/webp"><img src="img/team-img-02.jpg" width="256" height="186" alt="image"></picture>
+										</div>
+										<div class="slide-team__inner">
+											<div class="slide-team__content">
+												<div class="slide-team__name subtitle">Куркацишвілі Олександр Георгійович</div>
+												<div class="slide-team__subtitle subtitle">Освіта:</div>
+												<div class="slide-team__text-holder paragraph">
+													<p>В 1996 році закінчив Харківський Національний автомобільно-дорожній університет, спеціаліст,
+														спеціальність – Будівництво автомобільних шляхів та аеродромів</p>
+												</div>
+												<div class="slide-team__position paragraph-bold">
+													<p>Віцепрезидент Асоціації «Аграрний клуб»</p>
+												</div>
+											</div>
+											<span class="link link--xs _icon-ArrowSquareIn">Детальна інформація</span>
+										</div>
+									</a>
+									<a data-fancybox data-src="#profile-03" href="javascript:;" class="team__slide swiper-slide slide-team">
+										<div class="slide-team__image-holder">
+											<picture><source srcset="img/team-img-01.webp" type="image/webp"><img src="img/team-img-01.jpg" width="256" height="186" alt="image"></picture>
+										</div>
+										<div class="slide-team__inner">
+											<div class="slide-team__content">
+												<div class="slide-team__name subtitle">Вітюк Наталія Андріївна</div>
+												<div class="slide-team__subtitle subtitle">Освіта:</div>
+												<div class="slide-team__text-holder paragraph">
+													<p>В 2018 році закінчила Київський національний лінгвістичний університет, отримавши професійну
+														кваліфікацію фахівець з англійської мови, бакалавр.</p>
+													<p>В 2020 році закінчила Київський національний університет імені Тараса Шевченка, отримавши
+														професійну кваліфікацію перекладач, викладач іноземних мов закладу вищої освіти (англійська,
+														німецька), магістр.</p>
+													<p>В 2021 році закінчила Національний університет біоресурсів і природокористування України,
+														отримавши спеціальність менеджмент на базі новітньої магістерської програми співпраці з
+														бізнесом «Агрокебети», магістр.</p>
+													<p>В 2021 році закінчила навчання за міжнародною програмою МВА від Університету прикладних наук
+														Вайнштефан (Німеччина), магістр</p>
+												</div>
+												<div class="slide-team__position paragraph-bold">
+													<p>Віцепрезидентка Асоціації «Аграрний клуб»</p>
+												</div>
+											</div>
+											<span class="link link--xs _icon-ArrowSquareIn">Детальна інформація</span>
+										</div>
+									</a>
+									<a data-fancybox data-src="#profile-04" href="javascript:;" class="team__slide swiper-slide slide-team">
+										<div class="slide-team__image-holder">
+											<picture><source srcset="img/team-img-04.webp" type="image/webp"><img src="img/team-img-04.jpg" width="256" height="186" alt="image"></picture>
+										</div>
+										<div class="slide-team__inner">
+											<div class="slide-team__content">
+												<div class="slide-team__name subtitle">David Nguyen</div>
+												<div class="slide-team__subtitle subtitle">Освіта:</div>
+												<div class="slide-team__text-holder paragraph">
+													<p>David Nguyen serves as our Precision Farming Technologist, leveraging his expertise in
+														technology and agriculture to spearhead our precision farming initiatives. With a background
+														in computer science and a deep understanding of agricultural machinery, David implements
+														cutting-edge technological solutions to optimize farming operations. His innovative approach
+														to integrating data-driven decision-making processes has revolutionized our farming practices,
+														leading to increased efficiency and productivity. David's commitment to harnessing the power
+														of technology for precision agriculture drives our efforts in advancing the industry towards
+														more sustainable and high-yielding farming methodologies.
+													</p>
+												</div>
+												<div class="slide-team__position paragraph-bold">
+													<p>Sustainable Agriculture
+														Specialist</p>
+												</div>
+											</div>
+											<span class="link link--xs _icon-ArrowSquareIn">Детальна інформація</span>
+										</div>
+									</a>
+								</div>
+								<div class="slider-team__nav">
+									<button type="button" class="swiper-button-prev _icon-ArrowLeft"></button>
+									<div class="slider-team__scrollbar-wrapper">
+										<div class="swiper-scrollbar"></div>
+									</div>
+									<button type="button" class="swiper-button-next _icon-ArrowRight"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__content">
+					<div class="footer__col">
+						<a href="#" class="footer__logo">
+							<img src="img/logo.svg" width="105" height="30" alt="agrarian club">
+						</a>
+						<div class="footer__text-holder">
+							<p>АСОЦІАЦІЯ «АГРАРНИЙ КЛУБ»<br>
+								вул. Вокзальна, 11/1, смт Глеваха, Київська обл., 08631, Код ЄДРПОУ 45297491</p>
+						</div>
+						<div class="footer__link-box">
+							<a class="footer__link _icon-PhoneCalling" href="tel:+380665589877">+38 (066) 558 98 77</a>
+							<a class="footer__link _icon-Letter" href="mailto:agrarianclub@ukr.net">agrarianclub@ukr.net</a>
+						</div>
+					</div>
+					<div class="footer__col">
+						<div class="footer__menu-links menu-links">
+							<div class="menu-links__title _icon-ArrowUp">Клієнтам</div>
+							<ul class="menu-links__list">
+								<li><a class="link link--xs" href="#">Головна</a></li>
+								<li class="d-none"><a class="link link--xs" href="#">Новини та статті</a></li>
+								<li><a class="link link--xs" href="contacts.html">Контакти</a></li>
+							</ul>
+						</div>
+						<div class="footer__menu-links menu-links">
+							<div class="menu-links__title _icon-ArrowUp">Про нас</div>
+							<ul class="menu-links__list">
+								<li><a class="link link--xs" href="teams.html">Історія компанії</a>
+								</li>
+								<li><a class="link link--xs" href="teams.html">Наша команда</a></li>
+								<li><a class="link link--xs" href="association.html">Члени
+										асоціації</a></li>
+								<li><a class="link link--xs" href="partners.html">Партнери</a></li>
+							</ul>
+						</div>
+						<div class="footer__menu-links menu-links d-none">
+							<div class="menu-links__title _icon-ArrowUp">Лобіювання</div>
+							<ul class="menu-links__list">
+								<li><a class="link link--xs" href="#">Підтримка АПК</a></li>
+								<li><a class="link link--xs" href="#">Земля</a></li>
+								<li><a class="link link--xs" href="#">Освіта та наука</a></li>
+								<li><a class="link link--xs" href="#">Техніка</a></li>
+								<li><a class="link link--xs" href="#">Інше</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__col">
+						<div class="footer__form">
+							<form class="form">
+								<h3>Запит зв'язку</h3>
+								<div class="form__inner">
+									<div class="form__input-holder form__input-holder--phone">
+										<span>
+											<input id="phone-01" type="tel" value="" name="phone-client" placeholder="+38 (XXX) XXX XX XX">
+										</span>
+									</div>
+									<div class="form__button-holder">
+										<button class="button button--s" type="submit">
+											Замовити дзвінок
+										</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="footer__copyright copyright-footer">
+					<div class="copyright-footer__logo-holder">
+						<img src="img/logo-art.svg" width="100" height="92" alt="logo">
+					</div>
+					<div class="copyright-footer__text-holder">
+						<p>© 2023 agrarianclub.com.ua - ASSOCIATION "AGRARIAN CLUB". St. Vokzalna, 11/1, Hlevakha village,
+							Kyiv
+							region, 08631, EDRPOU code 45297491. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bg-holder bg-holder">
+				<picture>
+					<source media="(min-width:1280px)" srcset="img/bg-footer-desc.jpg" type="image/webp">
+					<img src="img/bg-footer.jpg" width="1279" height="755" alt="image">
+
+				</picture>
+			</div>
+			<a class="label-agency" href="#">
+				<img src="img/label-agency.svg" width="109" height="53" alt="shapoval agancy">
+			</a>
+		</footer>
+		<div style='display: none;' id='consultation-modal' class='consultation-modal'>
+			<div class='consultation-modal__image-holder'>
+				<img src='img/modal-consultation-img.jpg' width='800' height='96' alt='image'>
+			</div>
+			<div class='consultation-modal__inner'>
+				<div class='consultation-modal__header'>
+					<h3 class='title'>Замовлення консультації</h3>
+					<div class='consultation-modal__text-holder paragraph'>
+						<p>Якщо у вас виникли питання, ми з радістю допоможемо і підкажемо, як правильно вчинити</p>
+					</div>
+
+				</div>
+				<div class='consultation-modal__form'>
+					<form class='form'>
+						<div class='form__inner'>
+							<div class='form__input-holder form__input-holder--name'>
+								<span>
+									<label for='name-02'>Ваше ім'я</label>
+									<span>
+										<span class='form__name-icon _icon-UserRounded'></span>
+										<input id='name-02' type='text' value='' name='phone-client' placeholder='напр. Григорій'>
+										<span class='form__clear-icon _icon-X'></span>
+									</span>
+								</span>
+							</div>
+							<div class='form__input-holder form__input-holder--phone'>
+								<span>
+									<label for='phone-02'>Ваш телефон</label>
+									<span>
+										<span class='form__phone-icon _icon-PhoneCalling'></span>
+										<input id='phone-02' type='tel' value='' name='phone-client' placeholder='+38 (XXX) XXX XX XX'>
+										<span class='form__clear-icon _icon-X'></span>
+									</span>
+								</span>
+							</div>
+							<div class='form__button-holder'>
+								<button class='button button--m-teal' type='submit'>
+									Замовити дзвінок
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div style='display: none;' id='thank-modal' class='thank-modal'>
+			<div class='thank-modal__inner'>
+				<div class='thank-modal__left-col'>
+					<div class='thank-modal__icon-holder'>
+						<img src='img/check-icon.svg' width='32' height='32' alt='icon'>
+					</div>
+				</div>
+				<div class='thank-modal__right-col'>
+					<h3 class='title'>Ваше повідомлення
+						отримано!</h3>
+					<div class='thank-modal__text-holder paragraph'>
+						<p>Скоро ми зв'яжемося з вами та обговоримо всі деталі співпраці!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div style="display: none;" id="profile-01" class="profile-modal">
+			<div class="profile-modal__inner">
+				<div class="profile-modal__image-holder">
+					<picture><source srcset="img/team-img-03.webp" type="image/webp"><img src="img/team-img-03.jpg" width="376" height="357" alt="image"></picture>
+				</div>
+				<div class="profile-modal__header">
+					<div class="profile-modal__name">Адамчук Олег Валерійович</div>
+					<div class="profile-modal__position">Президент Асоціації «Аграрний клуб»</div>
+				</div>
+				<div class="profile-modal__content">
+					<div class="profile-modal__subtitle subtitle">Освіта</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>В 2003 році закінчив Національний аграрний університет (м. Київ), магістр, спеціальність – Машини та
+							обладнання сільськогосподарського виробництва</p>
+						<p>Кандидат технічних наук (спеціальність - Машини і засоби механізації сільськогосподарського виробництва)
+						</p>
+					</div>
+					<div class="profile-modal__subtitle subtitle">Кар’єра:</div>
+					<div class="profile-modal__date paragraph-bold">2004 - 2014</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Пройшов шлях від молодшого наукового співробітника до заступника директора з науково-інноваційної
+							діяльності
+							і дослідно-конструкторських робіт Національного наукового центру «Інститут механізації та електрифікації
+							сільського господарства» Національної академії аграрних наук України</p>
+					</div>
+					<div class="profile-modal__date paragraph-bold">2007 – 2012</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Директор ПНВФ «Агрохіммаш» (дилерське представництво ОАО «Бобруйскагромаш» в Україні)</p>
+					</div>
+					<div class="profile-modal__date paragraph-bold">2014</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Заступник директора Державного підприємства «Агромаш» Національної академії аграрних наук України» (за
+							сумісництвом)</p>
+					</div>
+					<div class="profile-modal__date paragraph-bold">2015 - 2021</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Директор Державного підприємства «Науково-технічний центр сертифікації «Агросепро» Національної академії
+							аграрних наук України»</p>
+					</div>
+					<div class="profile-modal__date paragraph-bold">2021 – 2023</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Завідувач Сектору нагляду і реєстрації сільськогосподарської техніки Державної служби України з питань
+							безпечності харчових продуктів та захисту споживачів</p>
+					</div>
+					<div class="profile-modal__subtitle subtitle">Нагороди</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Почесна відзнака Національної академії аграрних наук України» (2020р.); Грамота Верховної Ради України
+							(2019р.); Пам’ятна медаль «100 років Національній академії аграрних наук України» (2019р.); Знак «Ушинський
+							К.Д.» Національної академії педагогічних наук України (2018р.); Благословенна Грамота від Патріарха
+							Київського
+							і всієї Руси-України Філарета (2017р.); Грамота Державного департаменту інтелектуальної власності з
+							врученням
+							нагрудного значка «Творець» (2010р.); Почесна грамота Президії Української академії аграрних наук (2009р.);
+							Почесна грамота Головного управління агропромислового розвитку Київської обласної держадміністрації
+							(2008р.);
+							Переможець Всеукраїнського конкурсу «Винахід -2007» у номінації «Кращий винахід серед молоді» (Державний
+							департамент інтелектуальної власності, 2008р.)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="display: none;" id="profile-02" class="profile-modal">
+			<div class="profile-modal__inner">
+				<div class="profile-modal__image-holder">
+					<picture><source srcset="img/team-img-02.webp" type="image/webp"><img src="img/team-img-02.jpg" width="376" height="357" alt="image"></picture>
+				</div>
+				<div class="profile-modal__header">
+					<div class="profile-modal__name">КУРКАЦИШВІЛІ Олександр Георгійович</div>
+					<div class="profile-modal__position">Віцепрезидент Асоціації «Аграрний клуб»</div>
+				</div>
+				<div class="profile-modal__content">
+					<div class="profile-modal__subtitle subtitle">Освіта</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>В 1996 році закінчив Харківський Національний автомобільно-дорожній університет, спеціаліст, спеціальність
+							– Будівництво автомобільних шляхів та аеродромів</p>
+					</div>
+					<div class="profile-modal__subtitle subtitle">Кар’єра:</div>
+					<div class="profile-modal__date paragraph-bold">1995 - 2000</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Менеджер з продажу автотракторних запчастин та техніки в «АО ТБ АСМ» </p>
+					</div>
+					<div class="profile-modal__date paragraph-bold">2000 – 2005</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Провідний спеціаліст з постачання з/ч в «ООО Интерагро»</p>
+					</div>
+					<div class="profile-modal__date paragraph-bold">2005 — 2014</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Пройшов шлях від керівника відділу збуту до заступника генерального директора ТОВ Украгрозапчастина</p>
+					</div>
+					<div class="profile-modal__date paragraph-bold">2015 - 2018</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Генеральний директор ТОВ «Укрфармінг»</p>
+					</div>
+					<div class="profile-modal__date paragraph-bold">з 2020</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Заступник директора ТОВ «Науково навчальній центр «Інститут сільського господарства»</p>
+					</div>
+					<div class="profile-modal__subtitle subtitle">Нагороди</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Пам’ятна медаль «100 років Національній академії аграрних наук України» (2020р.)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="display: none;" id="profile-03" class="profile-modal">
+			<div class="profile-modal__inner">
+				<div class="profile-modal__image-holder">
+					<picture><source srcset="img/team-img-01.webp" type="image/webp"><img src="img/team-img-01.jpg" width="376" height="357" alt="image"></picture>
+				</div>
+				<div class="profile-modal__header">
+					<div class="profile-modal__name">Вітюк Наталія Андріївна</div>
+					<div class="profile-modal__position">Віцепрезидентка Асоціації «Аграрний клуб»</div>
+				</div>
+				<div class="profile-modal__content">
+					<div class="profile-modal__subtitle subtitle">Освіта</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>В 2018 році закінчила Київський національний лінгвістичний університет, отримавши професійну
+							кваліфікацію фахівець з англійської мови, бакалавр.</p>
+						<p>В 2020 році закінчила Київський національний університет імені Тараса Шевченка, отримавши професійну
+							кваліфікацію перекладач, викладач іноземних мов закладу вищої освіти (англійська, німецька), магістр.</p>
+						<p>В 2021 році закінчила Національний університет біоресурсів і природокористування України, отримавши
+							спеціальність менеджмент на базі новітньої магістерської програми співпраці з бізнесом «Агрокебети»,
+							магістр.</p>
+						<p>В 2021 році закінчила навчання за міжнародною програмою МВА від Університету прикладних наук Вайнштефан
+							(Німеччина), магістр</p>
+					</div>
+					<div class="profile-modal__subtitle subtitle">Кар’єра:</div>
+					<div class="profile-modal__date paragraph-bold">2020 - 2022</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>В.о заступника директора ДП «НТЦ «АгроСЕПРО» НААН</p>
+					</div>
+					<div class="profile-modal__date paragraph-bold">2021</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Стажування в Асоціації «Український клуб аграрного бізнесу»</p>
+					</div>
+					<div class="profile-modal__date paragraph-bold">з 2022</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Директор ТОВ «АВІКС-ДРАЙВ»</p>
+					</div>
+					<div class="profile-modal__subtitle subtitle">Нагороди</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Памятна ювілейна медаль «100 років Національній Академії аграрних наук України» (2020 р.). Памятна
+							ювілейна медаль «100 років Національній Академії аграрних наук України» (2020 р.) </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="display: none;" id="profile-04" class="profile-modal">
+			<div class="profile-modal__inner">
+				<div class="profile-modal__image-holder">
+					<picture><source srcset="img/team-img-04.webp" type="image/webp"><img src="img/team-img-04.jpg" width="376" height="357" alt="image"></picture>
+				</div>
+				<div class="profile-modal__header">
+					<div class="profile-modal__name">David Nguyen</div>
+					<div class="profile-modal__position">Precision Farming Technologist</div>
+				</div>
+				<div class="profile-modal__content">
+					<div class="profile-modal__subtitle subtitle">Освіта</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>David Nguyen serves as our Precision Farming Technologist, leveraging his expertise in technology and
+							agriculture to spearhead our precision farming initiatives. With a background in computer science and a deep
+							understanding of agricultural machinery, David implements cutting-edge technological solutions to optimize
+							farming operations. His innovative approach to integrating data-driven decision-making processes has
+							revolutionized our farming practices, leading to increased efficiency and productivity. David's commitment
+							to harnessing the power of technology for precision agriculture drives our efforts in advancing the industry
+							towards more sustainable and high-yielding farming methodologies.</p>
+					</div>
+					<div class="profile-modal__subtitle subtitle">Кар’єра:</div>
+					<div class="profile-modal__date paragraph-bold">2004 - 2014</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Пройшов шлях від молодшого наукового співробітника до заступника директора з науково-інноваційної
+							діяльності
+							і дослідно-конструкторських робіт Національного наукового центру «Інститут механізації та електрифікації
+							сільського господарства» Національної академії аграрних наук України</p>
+					</div>
+					<div class="profile-modal__date paragraph-bold">2007 – 2012</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Директор ПНВФ «Агрохіммаш» (дилерське представництво ОАО «Бобруйскагромаш» в Україні)</p>
+					</div>
+					<div class="profile-modal__date paragraph-bold">2014</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Заступник директора Державного підприємства «Агромаш» Національної академії аграрних наук України» (за
+							сумісництвом)</p>
+					</div>
+					<div class="profile-modal__date paragraph-bold">2015 - 2021</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Директор Державного підприємства «Науково-технічний центр сертифікації «Агросепро» Національної академії
+							аграрних наук України»</p>
+					</div>
+					<div class="profile-modal__date paragraph-bold">2021 – 2023</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Завідувач Сектору нагляду і реєстрації сільськогосподарської техніки Державної служби України з питань
+							безпечності харчових продуктів та захисту споживачів</p>
+					</div>
+					<div class="profile-modal__subtitle subtitle">Нагороди</div>
+					<div class="profile-modal__text-holder paragraph">
+						<p>Почесна відзнака Національної академії аграрних наук України» (2020р.); Грамота Верховної Ради України
+							(2019р.); Пам’ятна медаль «100 років Національній академії аграрних наук України» (2019р.); Знак «Ушинський
+							К.Д.» Національної академії педагогічних наук України (2018р.); Благословенна Грамота від Патріарха
+							Київського
+							і всієї Руси-України Філарета (2017р.); Грамота Державного департаменту інтелектуальної власності з
+							врученням
+							нагрудного значка «Творець» (2010р.); Почесна грамота Президії Української академії аграрних наук (2009р.);
+							Почесна грамота Головного управління агропромислового розвитку Київської обласної держадміністрації
+							(2008р.);
+							Переможець Всеукраїнського конкурсу «Винахід -2007» у номінації «Кращий винахід серед молоді» (Державний
+							департамент інтелектуальної власності, 2008р.)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="files/jquery-3.7.1.min.js"></script>
+	<script src="files/jquery.fancybox.min.js"></script>
+	<script src="files/swiper-bundle.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>

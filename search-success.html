@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<title>Search success</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="files/swiper-bundle.min.css">
+	<link rel="stylesheet" href="files/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="img/favicon.svg">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container container">
+				<a href="#" class="header__logo">
+					<img src="img/logo.svg" width="70" height="20" alt="logo">
+				</a>
+				<div class="header__menu">
+					<nav class="menu__body">
+						<ul id="menu-main-menu" class="menu__list menu sf-menu">
+							<li class="menu-item  current-menu-item current_page_item menu__item">
+								<a class="menu__link" href="#" aria-current="page">Головна</a>
+							</li>
+							<li data-spollers="1279" class="spollers">
+								<details class="spollers__item">
+									<summary class="spollers__title menu__link _icon-Plus">
+										про компанію
+									</summary>
+									<div class="spollers__body">
+										<a class="menu__link" href="contacts.html">історія компанії</a>
+										<a class="menu__link" href="teams.html">наша команда</a>
+										<a class="menu__link" href="association.html">члени асоціації</a>
+										<a class="menu__link" href="partners.html">партнери</a>
+									</div>
+									<div class="submenu submenu--company">
+										<div class="submenu__container">
+											<a class="submenu__link" href="teams.html">історія компанії</a>
+											<a class="submenu__link" href="teams.html">наша команда</a>
+											<a class="submenu__link" href="association.html">члени
+												асоціації</a>
+											<a class="submenu__link" href="partners.html">партнери</a>
+										</div>
+									</div>
+								</details>
+							</li>
+							<li class="menu-item menu__item d-none">
+								<a class="menu__link" href="#">новини та статті</a>
+							</li>
+							<li data-spollers="1279" class="spollers d-none">
+								<details class="spollers__item">
+									<summary class="spollers__title menu__link _icon-Plus">
+										лобіювання
+									</summary>
+									<div class="spollers__body">
+										<a class="menu__link" href="#">підтримка АПК</a>
+										<a class="menu__link" href="#">земля</a>
+										<a class="menu__link" href="#">освіта та наука</a>
+										<a class="menu__link" href="#">техніка</a>
+										<a class="menu__link" href="#">інше</a>
+									</div>
+									<div class="submenu submenu--company">
+										<div class="submenu__container">
+											<a class="submenu__link" href="#">підтримка АПК</a>
+											<a class="submenu__link" href="#">земля</a>
+											<a class="submenu__link" href="#">освіта та наука</a>
+											<a class="submenu__link" href="#">техніка</a>
+											<a class="submenu__link" href="#">інше</a>
+										</div>
+									</div>
+								</details>
+							</li>
+							<li class="menu-item menu__item">
+								<a class="menu__link" href="contacts.html">контакти</a>
+							</li>
+						</ul>
+						<div class="header__search-box">
+							<form class="bar">
+								<div class="bar__input-holder">
+									<input class="search-input" type="search" name="search" pattern=".*\S.*" required autocomplete="off" placeholder="Почніть вводити пошуковий запит">
+									<span class="search-icon _icon-Search"></span>
+									<span class="clear-search">✕</span>
+								</div>
+								<button class="search-btn _icon-Search" type="button">
+								</button>
+							</form>
+							<a class="button button--m-teal" data-fancybox data-src="#consultation-modal" href="javascript:;">консультація</a>
+						</div>
+						<div class="header__contacts contacts">
+							<div class="contacts__text-holder">
+								<p>АСОЦІАЦІЯ «АГРАРНИЙ КЛУБ»<br>
+									вул. Вокзальна, 11/1, смт Глеваха, Київська обл., 08631, Код ЄДРПОУ 45297491</p>
+							</div>
+							<div class="contacts__link-box">
+								<a class="_icon-PhoneCalling" href="tel:+380665589877">+38 (066) 558 98 77</a>
+								<a class="_icon-Letter" href="mailto:agrarianclub@ukr.net">agrarianclub@ukr.net</a>
+							</div>
+						</div>
+					</nav>
+					<div class="header__buttons-box">
+						<form class="bar-mobile">
+							<div class="bar-mobile__input-holder">
+								<input class="search-input-mobile" id="search-input" type="search" name="search" pattern=".*\S.*" required autocomplete="off" placeholder="Почніть вводити пошуковий запит">
+								<span class="search-icon-mobile _icon-Search"></span>
+								<span class="clear-search-mobile">✕</span>
+							</div>
+							<button class="search-btn-mobile _icon-Search" type="button">
+							</button>
+						</form>
+						<div class="menu-button">
+							<span>Меню</span>
+							<div class="menu-button__icon _icon-Menu"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="breadcrumbs" id="breadcrumbs-section">
+				<div class="breadcrumbs__container container">
+					<div class="breadcrumbs__list">
+						<span>
+							<span>
+								<a href="https://agrarian.creation.pp.ua/">головна</a>
+							</span>
+							<span class="brDevider">
+								<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M5.67461 3.63039C5.88428 3.45068 6.19993 3.47496 6.37964 3.68462L10.3796 8.35129C10.5401 8.53853 10.5401 8.81484 10.3796 9.00208L6.37964 13.6687C6.19993 13.8784 5.88428 13.9027 5.67461 13.723C5.46495 13.5433 5.44067 13.2276 5.62038 13.018L9.34147 8.67669L5.62038 4.33541C5.44067 4.12575 5.46495 3.8101 5.67461 3.63039Z" fill="#2C3333" />
+								</svg>
+							</span>
+							<span aria-current="page">Результати пошуку</span>
+						</span>
+					</div>
+				</div>
+			</section>
+			<div class="inner-page inner-page--s  ">
+				<section class="search" id="search-section">
+					<div class="search__container container">
+						<div class="search__header">
+							<h1 class="search__title title">Результати пошуку:</h1>
+							<div class="search__label label">Знайдено: 8 записів</div>
+							<h3 class="search__subtitle subtitle">Ви шукали: “тут треба виводити пошуковий запит”</h3>
+						</div>
+						<div class="search__content">
+							<div class="search__items">
+								<a href="#" class="search__item item-search">
+									<div class="item-search__inner">
+										<div class="item-search__left-col">
+										</div>
+										<div class="item-search__right-col">
+											<div class="item-search__header">
+												<div class="item-search__badge-box">
+													<div class="item-search__badge badge badge--graphite-100">Завершено</div>
+													<div class="item-search__badge badge badge--graphite  _icon-Hashtag-l">ОСВІТА ТА НАУКА</div>
+												</div>
+											</div>
+											<div class="item-search__text-holder paragraph-bold">
+												<p>Проект Закону «Про внесення змін до Податкового кодексу України щодо удосконалення правового
+													регулювання страхування сільськогосподарської продукції з державною підтримкою»</p>
+											</div>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="search__item item-search">
+									<div class="item-search__inner">
+										<div class="item-search__left-col">
+										</div>
+										<div class="item-search__right-col">
+											<div class="item-search__header">
+												<div class="item-search__badge-box">
+													<div class="item-search__badge badge badge--blue  _icon-Hashtag-l">згадка у змі</div>
+												</div>
+											</div>
+											<div class="item-search__text-holder paragraph-bold">
+												<p>Сільськогосподарські тренди: що обговорюють фермери на зустрічах клубу з агропромисловості</p>
+											</div>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="search__item item-search">
+									<div class="item-search__inner">
+										<div class="item-search__left-col">
+										</div>
+										<div class="item-search__right-col">
+											<div class="item-search__header">
+												<div class="item-search__badge-box">
+													<div class="item-search__badge badge badge--teal-500">в роботі</div>
+													<div class="item-search__badge badge badge--graphite  _icon-Hashtag-l">ТЕХНІКА</div>
+												</div>
+											</div>
+											<div class="item-search__text-holder paragraph-bold">
+												<p>Проект Закону «Про внесення змін до деяких законодавчих актів України (щодо єдиної правової
+													долі земельної ділянки та розміщеного на ній об'єкта нерухомості)»</p>
+											</div>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="search__item item-search">
+									<div class="item-search__inner">
+										<div class="item-search__left-col">
+											<div class="item-search__image-holder">
+												<picture><source srcset="img/carousel-img-01.webp" type="image/webp"><img src="img/carousel-img-01.jpg" width="64" height="64" alt="image"></picture>
+											</div>
+										</div>
+										<div class="item-search__right-col">
+											<div class="item-search__header">
+												<div class="item-search__date">15 листопада 2023</div>
+												<div class="item-search__badge-box">
+													<div class="item-search__badge badge badge--yellow">стаття</div>
+													<div class="item-search__badge badge badge--graphite  _icon-Hashtag-l">ОСВІТА ТА НАУКА</div>
+												</div>
+											</div>
+											<div class="item-search__text-holder paragraph-bold">
+												<p>Як кури збільшили врожай цибулі на 20%: Міф чи Реальність?</p>
+											</div>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="search__item item-search">
+									<div class="item-search__inner">
+										<div class="item-search__left-col">
+											<div class="item-search__image-holder">
+												<picture><source srcset="img/offers-img-02.webp" type="image/webp"><img src="img/offers-img-02.jpg" width="64" height="64" alt="image"></picture>
+											</div>
+										</div>
+										<div class="item-search__right-col">
+											<div class="item-search__header">
+												<div class="item-search__badge-box">
+													<div class="item-search__badge badge badge--red  _icon-Hashtag-l">пропозиція</div>
+												</div>
+											</div>
+											<div class="item-search__text-holder paragraph-bold">
+												<p>Ексклюзивна знижка 15% на всю лінійку коліс для ваших тракторів</p>
+											</div>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="search__item item-search">
+									<div class="item-search__inner">
+										<div class="item-search__left-col">
+											<div class="item-search__image-holder">
+												<picture><source srcset="img/carousel-img-03.webp" type="image/webp"><img src="img/carousel-img-03.jpg" width="64" height="64" alt="image"></picture>
+											</div>
+										</div>
+										<div class="item-search__right-col">
+											<div class="item-search__header">
+												<div class="item-search__date">10 листопада 2023</div>
+												<div class="item-search__badge-box">
+													<div class="item-search__badge badge badge--yellow">стаття</div>
+													<div class="item-search__badge badge badge--graphite  _icon-Hashtag-l">ЗЕМЛЯ</div>
+												</div>
+											</div>
+											<div class="item-search__text-holder paragraph-bold">
+												<p>За 9 місяців 2023 року Україна імпортувала свинини в 4 рази менше, ніж торік</p>
+											</div>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="search__item item-search">
+									<div class="item-search__inner">
+										<div class="item-search__left-col">
+										</div>
+										<div class="item-search__right-col">
+											<div class="item-search__header">
+												<div class="item-search__badge-box">
+													<div class="item-search__badge badge badge--graphite  _icon-Hashtag-l">згадка у змі</div>
+												</div>
+											</div>
+											<div class="item-search__text-holder paragraph-bold">
+												<p>Аграрний клуб об'єднує фермерів для обміну передовими практиками у сфері сільського
+													господарства</p>
+											</div>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="search__item item-search">
+									<div class="item-search__inner">
+										<div class="item-search__left-col">
+											<div class="item-search__image-holder">
+												<picture><source srcset="img/sel-articles-img-01.webp" type="image/webp"><img src="img/sel-articles-img-01.jpg" width="64" height="64" alt="image"></picture>
+											</div>
+										</div>
+										<div class="item-search__right-col">
+											<div class="item-search__header">
+												<div class="item-search__date">09 листопада 2023</div>
+												<div class="item-search__badge-box">
+													<div class="item-search__badge badge badge--yellow">стаття</div>
+													<div class="item-search__badge badge badge--graphite  _icon-Hashtag-l">ОСВІТА ТА НАУКА</div>
+												</div>
+											</div>
+											<div class="item-search__text-holder paragraph-bold">
+												<p>Як кури збільшили врожай цибулі на 20%: Міф чи Реальність?</p>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="pagination pagination--justify">
+								<div class="wp-pagenavi" role="navigation">
+									<a class="previouspostslink  blocked page-nav-link" rel="prev" aria-label="Prev page" href="#">
+										<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M10.8254 2.95363C11.0351 3.13334 11.0593 3.44899 10.8796 3.65866L7.15854 7.99993L10.8796 12.3412C11.0593 12.5509 11.0351 12.8665 10.8254 13.0462C10.6157 13.2259 10.3001 13.2017 10.1204 12.992L6.12037 8.32532C5.95988 8.13808 5.95988 7.86178 6.12037 7.67453L10.1204 3.00787C10.3001 2.7982 10.6157 2.77392 10.8254 2.95363Z" fill="#2C3333" />
+										</svg>
+									</a>
+									<span aria-current="page" class="current page-nav-link">01</span>
+									<a class="page larger page-nav-link" title="Page 2" href="#">02</a>
+									<a class="nextpostslink  page-nav-link" rel="next" aria-label="Next page" href="#">
+										<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M6.17461 2.95363C6.38428 2.77392 6.69993 2.7982 6.87964 3.00787L10.8796 7.67453C11.0401 7.86178 11.0401 8.13808 10.8796 8.32532L6.87964 12.992C6.69993 13.2017 6.38428 13.2259 6.17461 13.0462C5.96495 12.8665 5.94067 12.5509 6.12038 12.3412L9.84147 7.99993L6.12038 3.65866C5.94067 3.44899 5.96495 3.13334 6.17461 2.95363Z" fill="#2C3333" />
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__content">
+					<div class="footer__col">
+						<a href="#" class="footer__logo">
+							<img src="img/logo.svg" width="105" height="30" alt="agrarian club">
+						</a>
+						<div class="footer__text-holder">
+							<p>АСОЦІАЦІЯ «АГРАРНИЙ КЛУБ»<br>
+								вул. Вокзальна, 11/1, смт Глеваха, Київська обл., 08631, Код ЄДРПОУ 45297491</p>
+						</div>
+						<div class="footer__link-box">
+							<a class="footer__link _icon-PhoneCalling" href="tel:+380665589877">+38 (066) 558 98 77</a>
+							<a class="footer__link _icon-Letter" href="mailto:agrarianclub@ukr.net">agrarianclub@ukr.net</a>
+						</div>
+					</div>
+					<div class="footer__col">
+						<div class="footer__menu-links menu-links">
+							<div class="menu-links__title _icon-ArrowUp">Клієнтам</div>
+							<ul class="menu-links__list">
+								<li><a class="link link--xs" href="#">Головна</a></li>
+								<li class="d-none"><a class="link link--xs" href="#">Новини та статті</a></li>
+								<li><a class="link link--xs" href="contacts.html">Контакти</a></li>
+							</ul>
+						</div>
+						<div class="footer__menu-links menu-links">
+							<div class="menu-links__title _icon-ArrowUp">Про нас</div>
+							<ul class="menu-links__list">
+								<li><a class="link link--xs" href="teams.html">Історія компанії</a>
+								</li>
+								<li><a class="link link--xs" href="teams.html">Наша команда</a></li>
+								<li><a class="link link--xs" href="association.html">Члени
+										асоціації</a></li>
+								<li><a class="link link--xs" href="partners.html">Партнери</a></li>
+							</ul>
+						</div>
+						<div class="footer__menu-links menu-links d-none">
+							<div class="menu-links__title _icon-ArrowUp">Лобіювання</div>
+							<ul class="menu-links__list">
+								<li><a class="link link--xs" href="#">Підтримка АПК</a></li>
+								<li><a class="link link--xs" href="#">Земля</a></li>
+								<li><a class="link link--xs" href="#">Освіта та наука</a></li>
+								<li><a class="link link--xs" href="#">Техніка</a></li>
+								<li><a class="link link--xs" href="#">Інше</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__col">
+						<div class="footer__form">
+							<form class="form">
+								<h3>Запит зв'язку</h3>
+								<div class="form__inner">
+									<div class="form__input-holder form__input-holder--phone">
+										<span>
+											<input id="phone-01" type="tel" value="" name="phone-client" placeholder="+38 (XXX) XXX XX XX">
+										</span>
+									</div>
+									<div class="form__button-holder">
+										<button class="button button--s" type="submit">
+											Замовити дзвінок
+										</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="footer__copyright copyright-footer">
+					<div class="copyright-footer__logo-holder">
+						<img src="img/logo-art.svg" width="100" height="92" alt="logo">
+					</div>
+					<div class="copyright-footer__text-holder">
+						<p>© 2023 agrarianclub.com.ua - ASSOCIATION "AGRARIAN CLUB". St. Vokzalna, 11/1, Hlevakha village,
+							Kyiv
+							region, 08631, EDRPOU code 45297491. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bg-holder bg-holder">
+				<picture>
+					<source media="(min-width:1280px)" srcset="img/bg-footer-desc.jpg" type="image/webp">
+					<img src="img/bg-footer.jpg" width="1279" height="755" alt="image">
+
+				</picture>
+			</div>
+			<a class="label-agency" href="#">
+				<img src="img/label-agency.svg" width="109" height="53" alt="shapoval agancy">
+			</a>
+		</footer>
+		<div style='display: none;' id='consultation-modal' class='consultation-modal'>
+			<div class='consultation-modal__image-holder'>
+				<img src='img/modal-consultation-img.jpg' width='800' height='96' alt='image'>
+			</div>
+			<div class='consultation-modal__inner'>
+				<div class='consultation-modal__header'>
+					<h3 class='title'>Замовлення консультації</h3>
+					<div class='consultation-modal__text-holder paragraph'>
+						<p>Якщо у вас виникли питання, ми з радістю допоможемо і підкажемо, як правильно вчинити</p>
+					</div>
+
+				</div>
+				<div class='consultation-modal__form'>
+					<form class='form'>
+						<div class='form__inner'>
+							<div class='form__input-holder form__input-holder--name'>
+								<span>
+									<label for='name-02'>Ваше ім'я</label>
+									<span>
+										<span class='form__name-icon _icon-UserRounded'></span>
+										<input id='name-02' type='text' value='' name='phone-client' placeholder='напр. Григорій'>
+										<span class='form__clear-icon _icon-X'></span>
+									</span>
+								</span>
+							</div>
+							<div class='form__input-holder form__input-holder--phone'>
+								<span>
+									<label for='phone-02'>Ваш телефон</label>
+									<span>
+										<span class='form__phone-icon _icon-PhoneCalling'></span>
+										<input id='phone-02' type='tel' value='' name='phone-client' placeholder='+38 (XXX) XXX XX XX'>
+										<span class='form__clear-icon _icon-X'></span>
+									</span>
+								</span>
+							</div>
+							<div class='form__button-holder'>
+								<button class='button button--m-teal' type='submit'>
+									Замовити дзвінок
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div style='display: none;' id='thank-modal' class='thank-modal'>
+			<div class='thank-modal__inner'>
+				<div class='thank-modal__left-col'>
+					<div class='thank-modal__icon-holder'>
+						<img src='img/check-icon.svg' width='32' height='32' alt='icon'>
+					</div>
+				</div>
+				<div class='thank-modal__right-col'>
+					<h3 class='title'>Ваше повідомлення
+						отримано!</h3>
+					<div class='thank-modal__text-holder paragraph'>
+						<p>Скоро ми зв'яжемося з вами та обговоримо всі деталі співпраці!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	<script src="files/jquery-3.7.1.min.js"></script>
+	<script src="files/jquery.fancybox.min.js"></script>
+	<script src="files/swiper-bundle.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>

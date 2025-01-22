@@ -1,0 +1,2198 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<title>Agrarian</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="files/swiper-bundle.min.css">
+	<link rel="stylesheet" href="files/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="img/favicon.svg">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container container">
+				<a href="#" class="header__logo">
+					<img src="img/logo.svg" width="70" height="20" alt="logo">
+				</a>
+				<div class="header__menu">
+					<nav class="menu__body">
+						<ul id="menu-main-menu" class="menu__list menu sf-menu">
+							<li class="menu-item  current-menu-item current_page_item menu__item">
+								<a class="menu__link" href="#" aria-current="page">Головна</a>
+							</li>
+							<li data-spollers="1279" class="spollers">
+								<details class="spollers__item">
+									<summary class="spollers__title menu__link _icon-Plus">
+										про компанію
+									</summary>
+									<div class="spollers__body">
+										<a class="menu__link" href="contacts.html">історія компанії</a>
+										<a class="menu__link" href="teams.html">наша команда</a>
+										<a class="menu__link" href="association.html">члени асоціації</a>
+										<a class="menu__link" href="partners.html">партнери</a>
+									</div>
+									<div class="submenu submenu--company">
+										<div class="submenu__container">
+											<a class="submenu__link" href="teams.html">історія компанії</a>
+											<a class="submenu__link" href="teams.html">наша команда</a>
+											<a class="submenu__link" href="association.html">члени
+												асоціації</a>
+											<a class="submenu__link" href="partners.html">партнери</a>
+										</div>
+									</div>
+								</details>
+							</li>
+							<li class="menu-item menu__item d-none">
+								<a class="menu__link" href="#">новини та статті</a>
+							</li>
+							<li data-spollers="1279" class="spollers d-none">
+								<details class="spollers__item">
+									<summary class="spollers__title menu__link _icon-Plus">
+										лобіювання
+									</summary>
+									<div class="spollers__body">
+										<a class="menu__link" href="#">підтримка АПК</a>
+										<a class="menu__link" href="#">земля</a>
+										<a class="menu__link" href="#">освіта та наука</a>
+										<a class="menu__link" href="#">техніка</a>
+										<a class="menu__link" href="#">інше</a>
+									</div>
+									<div class="submenu submenu--company">
+										<div class="submenu__container">
+											<a class="submenu__link" href="#">підтримка АПК</a>
+											<a class="submenu__link" href="#">земля</a>
+											<a class="submenu__link" href="#">освіта та наука</a>
+											<a class="submenu__link" href="#">техніка</a>
+											<a class="submenu__link" href="#">інше</a>
+										</div>
+									</div>
+								</details>
+							</li>
+							<li class="menu-item menu__item">
+								<a class="menu__link" href="contacts.html">контакти</a>
+							</li>
+						</ul>
+						<div class="header__search-box">
+							<form class="bar">
+								<div class="bar__input-holder">
+									<input class="search-input" type="search" name="search" pattern=".*\S.*" required autocomplete="off" placeholder="Почніть вводити пошуковий запит">
+									<span class="search-icon _icon-Search"></span>
+									<span class="clear-search">✕</span>
+								</div>
+								<button class="search-btn _icon-Search" type="button">
+								</button>
+							</form>
+							<a class="button button--m-teal" data-fancybox data-src="#consultation-modal" href="javascript:;">консультація</a>
+						</div>
+						<div class="header__contacts contacts">
+							<div class="contacts__text-holder">
+								<p>АСОЦІАЦІЯ «АГРАРНИЙ КЛУБ»<br>
+									вул. Вокзальна, 11/1, смт Глеваха, Київська обл., 08631, Код ЄДРПОУ 45297491</p>
+							</div>
+							<div class="contacts__link-box">
+								<a class="_icon-PhoneCalling" href="tel:+380665589877">+38 (066) 558 98 77</a>
+								<a class="_icon-Letter" href="mailto:agrarianclub@ukr.net">agrarianclub@ukr.net</a>
+							</div>
+						</div>
+					</nav>
+					<div class="header__buttons-box">
+						<form class="bar-mobile">
+							<div class="bar-mobile__input-holder">
+								<input class="search-input-mobile" id="search-input" type="search" name="search" pattern=".*\S.*" required autocomplete="off" placeholder="Почніть вводити пошуковий запит">
+								<span class="search-icon-mobile _icon-Search"></span>
+								<span class="clear-search-mobile">✕</span>
+							</div>
+							<button class="search-btn-mobile _icon-Search" type="button">
+							</button>
+						</form>
+						<div class="menu-button">
+							<span>Меню</span>
+							<div class="menu-button__icon _icon-Menu"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero" id="hero-section">
+				<div class="hero__container container">
+					<div class="hero__left-col">
+						<div class="hero__content">
+							<div class="hero__logo">
+								<video id="video-mask" autoplay muted loop preload="auto" playsinline>
+									<source src="files/hero.mp4" type="video/mp4">
+								</video>
+							</div>
+							<div class="hero__text-box">
+								<h1 class="hero__title">Аграрний клуб</h1>
+								<div class="hero__text-holder">
+									<p>Долучайся до <span>закритої спільноти</span> аграріїв, яка допоможе швидше досягати нових
+										бізнес
+										цілей</p>
+								</div>
+							</div>
+							<a class="button button--m-teal _icon-Star" href="#cta-section">долучитися зараз</a>
+						</div>
+					</div>
+					<div class="hero__right-col">
+						<div class="hero__slider swiper slider-hero">
+							<div class="hero__wrapper swiper-wrapper">
+								<div class="hero__slide swiper-slide slide-hero" data-background="img/hero-slide-img-01.jpg">
+									<a href="#" class="slide-hero__inner">
+										<div class="slide-hero__header">
+											<div class="badge badge--yellow">стаття</div>
+											<div class="badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА НАУКА</div>
+										</div>
+										<div class="slide-hero__content">
+											<div class="slide-hero__date">16 листопада 2023</div>
+											<h3 class="slide-hero__title">Як кури збільшили врожай цибулі на 20%</h3>
+											<div class="slide-hero__text-holder">
+												<p>Хоча кури можуть бути корисними для фермерства через процес гноєння (відходи
+													курей можуть використовуватися як добриво для полів), проте безпосередній вплив
+													курей на урожайність цибулі на 20% є малоймовірним. Урожайність рослин
+													визначається комплексом факторів, а не лише одним аспектом, таким як утримання
+													птиці.
+												</p>
+											</div>
+										</div>
+										<span class="link link--xs _icon-Forward">Читати далі</span>
+									</a>
+								</div>
+								<div class="hero__slide swiper-slide slide-hero" data-background="img/hero-slide-img-02.jpg">
+									<a href="#" class="slide-hero__inner">
+										<div class="slide-hero__header">
+											<div class="badge badge--green">новина</div>
+											<div class="badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА НАУКА</div>
+										</div>
+										<div class="slide-hero__content">
+											<div class="slide-hero__date">15 листопада 2023</div>
+											<h3 class="slide-hero__title">Український експорт продукції АПК: головні зміни з
+												початку війни</h3>
+											<div class="slide-hero__text-holder">
+												<p>З початком російської агресії на території України суттєво змінилася географія
+													експорту. Якщо в довоєнний 2021 рік частка експорту продукції АПК в Європу
+													становив 32%, то за результатами 10 місяців 2023 року вже 59%. Однак таке
+													зростання вимушене, так як суттєво скоротилися поставки в інші регіони. Частка
+													експорту в країни Африки скоротили з 14% до 7%, Азії – з 19% до 12%,
+													південно-східної Азії – з 13% до 4%.
+												</p>
+											</div>
+										</div>
+										<span class="link link--xs _icon-Forward">Читати далі</span>
+									</a>
+								</div>
+								<div class="hero__slide swiper-slide slide-hero" data-background="img/hero-slide-img-03.jpg">
+									<a href="#" class="slide-hero__inner">
+										<div class="slide-hero__header">
+											<div class="badge badge--yellow">стаття</div>
+											<div class="badge badge--graphite _icon-Hashtag-l">ЗЕМЛЯ</div>
+										</div>
+										<div class="slide-hero__content">
+											<div class="slide-hero__date">10 листопада 2023</div>
+											<h3 class="slide-hero__title">За 9 місяців 2023 року Україна імпортувала свинини в 4
+												рази менше, ніж торік</h3>
+											<div class="slide-hero__text-holder">
+												<p>У вересні Україна імпортувала 2,16 тис. т свинини, що є найбільшим показником у
+													цьому році. Водночас, за 9 місяців 2023 року було імпортовано 9,9 тис. т, що в 4
+													рази менше, ніж торік. Останніми місяцями фіксуються стабільні поставки продукції
+													переважно з країн ЄС, а саме: Данія, Нідерланди, Бельгія, Польща. Крім цього,
+													15,2% припадають на поставки з Канади.
+												</p>
+											</div>
+										</div>
+										<span class="link link--xs _icon-Forward">Читати далі</span>
+									</a>
+								</div>
+							</div>
+							<div class="hero__nav">
+								<button type="button" class="swiper-button-prev _icon-ArrowLeft"></button>
+								<div class="swiper-pagination"></div>
+								<button type="button" class="swiper-button-next _icon-ArrowRight"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hero__bg-holder bg-holder">
+					<picture>
+						<source media="(min-width:1280px)" srcset="img/bg-hero-desc.jpg" type="image/webp">
+						<img src="img/bg-hero.jpg" width="1279" height="760" alt="image">
+					</picture>
+				</div>
+			</section>
+			<div class="carousel" id="carousel-block">
+				<div class="carousel__container container">
+					<div class="carousel__content">
+						<div class="carousel__slider swiper slider-carousel">
+							<div class="carousel__wrapper swiper-wrapper">
+								<div class="carousel__slide swiper-slide slide-carousel slide-carousel--gradient">
+									<div class="slide-carousel__inner">
+										<div class="slide-carousel__header">
+											<div class="slide-carousel__badge-rounded badge-rounded">
+												про компанію
+											</div>
+										</div>
+										<div class="slide-carousel__content">
+											<div class="slide-carousel__announcement">
+												<p>Дізнайтеся більше про нашу компанію та наші цінності</p>
+											</div>
+										</div>
+										<a class="link link--xs-white _icon-ArrowDownRight" href="#">Перейти до
+											розділу</a>
+									</div>
+									<div class="slide-carousel__bg-holder">
+										<video src="files/carousel.mp4" autoplay muted loop preload="auto" playsinline></video>
+									</div>
+								</div>
+								<div class="carousel__slide swiper-slide slide-carousel">
+									<div class="slide-carousel__inner">
+										<div class="slide-carousel__header">
+											<div class="slide-carousel__badge-rounded badge-rounded">
+												новини та статті
+											</div>
+										</div>
+										<div class="slide-carousel__content">
+											<div class="slide-carousel__announcement">
+												<p>Слідкуйте за останніми новинами та подіями компанії</p>
+											</div>
+										</div>
+										<a class="link link--xs-white _icon-ArrowDownRight" href="#">Перейти до розділу</a>
+									</div>
+									<div class="carousel-inner__slider swiper slider-carousel-inner">
+										<div class="carousel-inner__wrapper swiper-wrapper">
+											<div class="carousel-inner__slide swiper-slide slide-carousel-inner slide-carousel-inner--gradient">
+												<div class="slide-carousel-inner__image-holder">
+													<picture><source srcset="img/carousel-img-01.webp" type="image/webp"><img src="img/carousel-img-01.jpg" width="256" height="256" alt="image"></picture>
+												</div>
+											</div>
+											<div class="carousel-inner__slide swiper-slide slide-carousel-inner slide-carousel-inner--gradient">
+												<div class="slide-carousel-inner__image-holder">
+													<picture><source srcset="img/carousel-img-02.webp" type="image/webp"><img src="img/carousel-img-02.jpg" width="256" height="256" alt="image"></picture>
+												</div>
+											</div>
+											<div class="carousel-inner__slide swiper-slide slide-carousel-inner slide-carousel-inner--gradient">
+												<div class="slide-carousel-inner__image-holder">
+													<picture><source srcset="img/carousel-img-03.webp" type="image/webp"><img src="img/carousel-img-03.jpg" width="256" height="256" alt="image"></picture>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-inner__nav">
+											<div class="swiper-pagination"></div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel__slide swiper-slide slide-carousel slide-carousel--green">
+									<div class="slide-carousel__inner">
+										<div class="slide-carousel__header">
+											<div class="slide-carousel__badge-rounded badge-rounded">
+												лобіювання
+											</div>
+										</div>
+										<div class="slide-carousel__content">
+											<div class="slide-carousel__update">
+												останні оновлення
+											</div>
+											<a href="#" class="slide-carousel__card card">
+												<div class="card__badge-box">
+													<div class="badge badge--graphite-100">Завершено</div>
+													<div class="badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА НАУКА</div>
+												</div>
+												<div class="card__text-holder paragraph-bold">
+													<p>Проект Закону «Про внесення змін до Податкового кодексу України щодо
+														удосконалення правового регулювання страхування сільськогосподарської
+														продукції з державною підтримкою»</p>
+												</div>
+											</a>
+											<a href="#" class="slide-carousel__card card">
+												<div class="card__badge-box">
+													<div class="badge badge--teal-500">в роботі</div>
+													<div class="badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА НАУКА</div>
+												</div>
+												<div class="card__text-holder paragraph-bold">
+													<p>Проект Закону «Про внесення змін до Податкового кодексу України щодо ставки
+														податку на додану вартість з операцій з постачання окремих видів
+														сільськогосподарської продукції»</p>
+												</div>
+											</a>
+										</div>
+										<a class="link link--xs-white _icon-ArrowDownRight" href="#">Перейти до розділу</a>
+									</div>
+								</div>
+								<div class="carousel__slide swiper-slide slide-carousel slide-carousel--blue">
+									<div class="slide-carousel__inner">
+										<div class="slide-carousel__header">
+											<div class="slide-carousel__badge-rounded badge-rounded">
+												контакти
+											</div>
+										</div>
+										<div class="slide-carousel__content">
+											<div class="slide-carousel__text-holder paragraph">
+												<p>вул. Вокзальна, 11/1, смт Глеваха,
+													Київська обл., 08631</p>
+											</div>
+											<a class="slide-carousel__phone link link--xs-white" href="tel:+380665589877">+38 (066)
+												558 98
+												77</a>
+											<a class="slide-carousel__mail link link--xs-white" href="mailto:agrarianclub@ukr.net">agrarianclub@ukr.net</a>
+										</div>
+										<a class="link link--xs-white _icon-ArrowDownRight" href="#">Перейти до розділу</a>
+									</div>
+								</div>
+								<div class="carousel__slide swiper-slide slide-carousel slide-carousel--gradient">
+									<div class="slide-carousel__inner">
+										<div class="slide-carousel__header">
+											<div class="slide-carousel__badge-rounded badge-rounded">
+												про компанію
+											</div>
+										</div>
+										<div class="slide-carousel__content">
+											<div class="slide-carousel__announcement">
+												<p>Дізнайтеся більше про нашу компанію та наші цінності</p>
+											</div>
+										</div>
+										<a class="link link--xs-white _icon-ArrowDownRight" href="#">Перейти до розділу</a>
+									</div>
+									<div class="slide-carousel__bg-holder">
+										<video src="files/carousel.mp4" autoplay muted loop preload="auto" playsinline></video>
+									</div>
+								</div>
+								<div class="carousel__slide swiper-slide slide-carousel">
+									<div class="slide-carousel__inner">
+										<div class="slide-carousel__header">
+											<div class="slide-carousel__badge-rounded badge-rounded">
+												новини та статті
+											</div>
+										</div>
+										<div class="slide-carousel__content">
+											<div class="slide-carousel__announcement">
+												<p>Слідкуйте за останніми новинами та подіями компанії</p>
+											</div>
+										</div>
+										<a class="link link--xs-white _icon-ArrowDownRight" href="#">Перейти до розділу</a>
+									</div>
+									<div class="carousel-inner__slider swiper slider-carousel-inner">
+										<div class="carousel-inner__wrapper swiper-wrapper">
+											<div class="carousel-inner__slide swiper-slide slide-carousel-inner slide-carousel-inner--gradient">
+												<div class="slide-carousel-inner__image-holder">
+													<picture><source srcset="img/carousel-img-01.webp" type="image/webp"><img src="img/carousel-img-01.jpg" width="256" height="256" alt="image"></picture>
+												</div>
+											</div>
+											<div class="carousel-inner__slide swiper-slide slide-carousel-inner slide-carousel-inner--gradient">
+												<div class="slide-carousel-inner__image-holder">
+													<picture><source srcset="img/carousel-img-02.webp" type="image/webp"><img src="img/carousel-img-02.jpg" width="256" height="256" alt="image"></picture>
+												</div>
+											</div>
+											<div class="carousel-inner__slide swiper-slide slide-carousel-inner slide-carousel-inner--gradient">
+												<div class="slide-carousel-inner__image-holder">
+													<picture><source srcset="img/carousel-img-03.webp" type="image/webp"><img src="img/carousel-img-03.jpg" width="256" height="256" alt="image"></picture>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-inner__nav">
+											<div class="swiper-pagination"></div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel__slide swiper-slide slide-carousel slide-carousel--green">
+									<div class="slide-carousel__inner">
+										<div class="slide-carousel__header">
+											<div class="slide-carousel__badge-rounded badge-rounded">
+												лобіювання
+											</div>
+										</div>
+										<div class="slide-carousel__content">
+											<div class="slide-carousel__update">
+												останні оновлення
+											</div>
+											<div class="slide-carousel__card card">
+												<div class="card__badge-box">
+													<div class="badge badge--graphite-100">Завершено</div>
+													<div class="badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА НАУКА</div>
+												</div>
+												<div class="card__text-holder paragraph-bold">
+													<p>Проект Закону «Про внесення змін до Податкового кодексу України щодо
+														удосконалення правового регулювання страхування сільськогосподарської
+														продукції з державною підтримкою»</p>
+												</div>
+											</div>
+											<div class="slide-carousel__card card">
+												<div class="card__badge-box">
+													<div class="badge badge--teal-500">в роботі</div>
+													<div class="badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА НАУКА</div>
+												</div>
+												<div class="card__text-holder paragraph-bold">
+													<p>Проект Закону «Про внесення змін до Податкового кодексу України щодо ставки
+														податку на додану вартість з операцій з постачання окремих видів
+														сільськогосподарської продукції»</p>
+												</div>
+											</div>
+										</div>
+										<a class="link link--xs-white _icon-ArrowDownRight" href="#">Перейти до розділу</a>
+									</div>
+								</div>
+								<div class="carousel__slide swiper-slide slide-carousel slide-carousel--blue">
+									<div class="slide-carousel__inner">
+										<div class="slide-carousel__header">
+											<div class="slide-carousel__badge-rounded badge-rounded">
+												контакти
+											</div>
+										</div>
+										<div class="slide-carousel__content">
+											<div class="slide-carousel__text-holder paragraph">
+												<p>вул. Вокзальна, 11/1, смт Глеваха,
+													Київська обл., 08631</p>
+											</div>
+											<a class="slide-carousel__phone link link--xs-white" href="tel:+380665589877">+38 (066)
+												558 98
+												77</a>
+											<a class="slide-carousel__mail link link--xs-white" href="mailto:agrarianclub@ukr.net">agrarianclub@ukr.net</a>
+										</div>
+										<a class="link link--xs-white _icon-ArrowDownRight" href="#">Перейти до розділу</a>
+									</div>
+								</div>
+							</div>
+							<div class="slider-carousel__nav">
+								<button type="button" class="swiper-button-prev _icon-ArrowLeft"></button>
+								<div class="slider-carousel__scrollbar-wrapper">
+									<div class="swiper-scrollbar"></div>
+								</div>
+								<button type="button" class="swiper-button-next _icon-ArrowRight"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="feature" id="feature-section">
+				<div class="feature__container container">
+					<div class="feature__header">
+						<h2 class="feature__title title">Що отримують члени асоціації?</h2>
+						<div class="feature__text-holder">
+							<p>Ви потрапляєте в закриту спільноту, яка діє у ваших інтересах</p>
+						</div>
+					</div>
+					<div class="feature__content">
+						<div data-tabs class="tabs">
+							<nav data-tabs-titles class="tabs__navigation">
+								<button type="button" class="tabs__button _tab-active">
+									<span class="tabs__icon _icon-Sledgehammer"></span>
+									<span class="tabs__subtitle subtitle">Захист прав</span>
+									<span class="paragraph">Права асоціації в уряді</span>
+								</button>
+								<button type="button" class="tabs__button">
+									<span class="tabs__icon _icon-PieChart"></span>
+									<span class="tabs__subtitle subtitle">Аналіз стану</span>
+									<span class="paragraph">Аналіз ринку с/г техніки</span>
+								</button>
+								<button type="button" class="tabs__button">
+									<span class="tabs__icon _icon-CallChatRounded"></span>
+									<span class="tabs__subtitle subtitle">Консультування</span>
+									<span class="paragraph">Консультації щодо реєстрації техніки та відповідності</span>
+								</button>
+								<button type="button" class="tabs__button">
+									<span class="tabs__icon _icon-Widget"></span>
+									<span class="tabs__subtitle subtitle">Організація</span>
+									<span class="paragraph">Організація заходів для покращення процесів</span>
+								</button>
+								<button type="button" class="tabs__button">
+									<span class="tabs__icon _icon-Euro"></span>
+									<span class="tabs__subtitle subtitle">Допомога</span>
+									<span class="paragraph">Допомога з інвестиціями без втручання</span>
+								</button>
+								<button type="button" class="tabs__button">
+									<span class="tabs__icon _icon-Rocket"></span>
+									<span class="tabs__subtitle subtitle">Сприяння</span>
+									<span class="paragraph">Підтримка виходу на зарубіжні ринки</span>
+								</button>
+							</nav>
+							<div data-tabs-body class="tabs__content">
+								<div class="tabs__body">
+									<div class="tabs__inner">
+										<div class="text-block">
+											<div class="text-block__content">
+												<h3>Захист і представлення прав та інтересів Асоціації та її Членів в органах
+													держвлади
+												</h3>
+												<div class="text-holder">
+													<p>Захист і представлення прав та інтересів Асоціації та її Членів в органах
+														державної влади є важливим завданням, яке передбачає роботу з різними гілками
+														влади, включаючи законодавчу, виконавчу та судову, з метою забезпечення
+														захисту та сприяння розвитку інтересів та цілей Асоціації .</p>
+												</div>
+											</div>
+										</div>
+										<div class="tabs__img-container">
+											<div class="tabs__image-holder">
+												<picture>
+													<source media="(min-width:1280px)" srcset="img/tabs-img-01-desc.jpg" type="image/webp">
+													<img src="img/tabs-img-01.jpg" width="376" height="176" alt="image">
+												</picture>
+											</div>
+											<div class="tabs__image-holder">
+												<picture>
+													<source media="(min-width:1280px)" srcset="img/tabs-img-02-desc.jpg" type="image/webp">
+													<img src="img/tabs-img-02.jpg" width="376" height="176" alt="image">
+												</picture>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tabs__body">
+									<div class="tabs__inner">
+										<div class="text-block">
+											<div class="text-block__content">
+												<h3>Аналіз стану вітчизняного ринку с/г техніки та надання результатів досліджень
+												</h3>
+												<div class="text-holder">
+													<p>Детальне дослідження та збір інформації про найновітніші технології та техніку
+														для вдосконалення вашого сільськогосподарського бізнесу. Ми пропонуємо
+														результативні стратегії та обґрунтовані рекомендації, ґрунтуючись на аналізі
+														ринкових тенденцій та поточних досліджень.</p>
+													<p>Довірте нам здійснити об'єктивний аналіз, щоб ви могли приймати виважені
+														рішення
+														щодо обладнання та технологій, що найбільше відповідають вашим потребам та
+														забезпечать зростання вашого господарства</p>
+												</div>
+											</div>
+										</div>
+										<div class="tabs__img-container">
+											<div class="tabs__image-holder">
+												<picture>
+													<source media="(min-width:1280px)" srcset="img/tabs-img-03-desc.jpg" type="image/webp">
+													<img src="img/tabs-img-03.jpg" width="376" height="176" alt="image">
+												</picture>
+											</div>
+											<div class="tabs__image-holder">
+												<picture>
+													<source media="(min-width:1280px)" srcset="img/tabs-img-04-desc.jpg" type="image/webp">
+													<img src="img/tabs-img-04.jpg" width="376" height="176" alt="image">
+												</picture>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tabs__body">
+									<div class="tabs__inner">
+										<div class="text-block">
+											<div class="text-block__content">
+												<h3>Консультування щодо відомчої реєстрації техніки та оцінки відповідності
+													продукції
+													вимогам техрегламентів для членів Аграрного клубу</h3>
+												<div class="text-holder">
+													<p>Наши консультанти готові надати вам всебічну підтримку у питаннях, пов'язаних
+														із
+														відомчою реєстрацією сільськогосподарської техніки та перевіркою відповідності
+														вашої продукції обов'язковим технічним стандартам.</p>
+													<p>Ми надаємо індивідуальний підхід до кожного клієнта, допомагаючи зробити
+														процес
+														реєстрації ефективним та безперебійним. Наша команда експертів забезпечить вас
+														необхідними знаннями та рекомендаціями.</p>
+												</div>
+											</div>
+										</div>
+										<div class="tabs__img-container">
+											<div class="tabs__image-holder">
+												<picture>
+													<source media="(min-width:1280px)" srcset="img/tabs-img-05-desc.jpg" type="image/webp">
+													<img src="img/tabs-img-05.jpg" width="376" height="176" alt="image">
+												</picture>
+											</div>
+											<div class="tabs__image-holder">
+												<picture>
+													<source media="(min-width:1280px)" srcset="img/tabs-img-06-desc.jpg" type="image/webp">
+													<img src="img/tabs-img-06.jpg" width="376" height="176" alt="image">
+												</picture>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tabs__body">
+									<div class="tabs__inner">
+										<div class="text-block">
+											<div class="text-block__content">
+												<h3>Організація круглих столів та семінарів для покращення виробничо-торговельних
+													процесів</h3>
+												<div class="text-holder">
+													<p>Наші заходи спрямовані на створення платформи для обміну ідеями, передачі
+														найкращих практик та вивчення передового досвіду в галузі агропромислового
+														сектора. Ми впевнені, що спільний обмін досвідом дозволить кожній
+														компанії-учасниці підняти ефективність своєї діяльності на новий рівень.</p>
+													<p>Враховуємо ваші потреби та побажання, забезпечуючи організацію заходу
+														відповідно
+														до найвищих стандартів. Ми прагнемо створити атмосферу співпраці та підтримки
+														серед учасників, щоб кожен з вас міг отримати максимум користі та нового
+														знання
+														для свого бізнесу.</p>
+												</div>
+											</div>
+										</div>
+										<div class="tabs__img-container">
+											<div class="tabs__image-holder">
+												<picture>
+													<source media="(min-width:1280px)" srcset="img/tabs-img-07-desc.jpg" type="image/webp">
+													<img src="img/tabs-img-07.jpg" width="376" height="176" alt="image">
+												</picture>
+											</div>
+											<div class="tabs__image-holder">
+												<picture>
+													<source media="(min-width:1280px)" srcset="img/tabs-img-08-desc.jpg" type="image/webp">
+													<img src="img/tabs-img-08.jpg" width="376" height="176" alt="image">
+												</picture>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tabs__body">
+									<div class="tabs__inner">
+										<div class="text-block">
+											<div class="text-block__content">
+												<h3>Допомога в реалізації інвестиційних проектів без втручання в господарську
+													діяльність</h3>
+												<div class="text-holder">
+													<p>Членство в Аграрному клубі відкриває можливості для успішної реалізації
+														інвестиційних проектів. Наші послуги спрямовані на надання підтримки та
+														експертної консультації з інвестиційного планування, не втручаючись у вашу
+														господарську діяльність.</p>
+													<p>Ми допомагаємо вам знаходити потенційні можливості для інвестування в аграрний
+														сектор, забезпечуючи доступ до стратегічних ринків, технологічних інновацій та
+														фінансових ресурсів.</p>
+												</div>
+											</div>
+										</div>
+										<div class="tabs__img-container">
+											<div class="tabs__image-holder">
+												<picture>
+													<source media="(min-width:1280px)" srcset="img/tabs-img-09-desc.jpg" type="image/webp">
+													<img src="img/tabs-img-09.jpg" width="376" height="176" alt="image">
+												</picture>
+											</div>
+											<div class="tabs__image-holder">
+												<picture>
+													<source media="(min-width:1280px)" srcset="img/tabs-img-10-desc.jpg" type="image/webp">
+													<img src="img/tabs-img-10.jpg" width="376" height="176" alt="image">
+												</picture>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tabs__body">
+									<div class="tabs__inner">
+										<div class="text-block">
+											<div class="text-block__content">
+												<h3>Сприяння виходу Членів Асоціації на закордонні ринки</h3>
+												<div class="text-holder">
+													<p>Наша команда надає повну підтримку в освоєнні закордонних ринків. Ми розуміємо
+														важливість ефективного виходу на міжнародні ринки для вашого бізнесу.
+														Незалежно
+														від обсягів чи специфіки вашої продукції, ми пропонуємо індивідуальний підхід
+														та
+														комплексні рішення для розширення вашої присутності за кордоном.</p>
+													<p>Ми пропонуємо професійні консультації, допомогу в появі на нових ринках, а
+														також
+														підтримку в розробці стратегій експорту та вивченні ринків на місцях.</p>
+												</div>
+											</div>
+										</div>
+										<div class="tabs__img-container">
+											<div class="tabs__image-holder">
+												<picture>
+													<source media="(min-width:1280px)" srcset="img/tabs-img-11-desc.jpg" type="image/webp">
+													<img src="img/tabs-img-11.jpg" width="376" height="176" alt="image">
+												</picture>
+											</div>
+											<div class="tabs__image-holder">
+												<picture>
+													<source media="(min-width:1280px)" srcset="img/tabs-img-12-desc.jpg" type="image/webp">
+													<img src="img/tabs-img-12.jpg" width="376" height="176" alt="image">
+												</picture>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<div class="banner" id="banner-block">
+				<div class="banner__container container">
+					<div class="banner__content">
+						<div class="banner__text-holder">
+							<p>Давайте зрощувати майбутнє разом!</p>
+						</div>
+						<div class="banner__logo">
+							<img src="img/logo-banner.svg" width="65" height="55" alt="logo">
+						</div>
+						<a class="button button--m-teal" href="#cta-section">приєднатись зараз</a>
+						<div class="banner__bg-video">
+							<video src="files/banner.mp4" autoplay muted loop preload="auto" playsinline></video>
+							<div class="banner__bg-gradient"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="news" id="news-block">
+				<div class="news__container container">
+					<div class="news__header">
+						<div class="text-block">
+							<div class="text-block__content">
+								<h3>Останні новини та експертні статті</h3>
+							</div>
+							<div class="switcher">
+								<div class="switcher__item">
+									<a class="switcher__link _active" href="#">
+										Всі
+										<span>60</span>
+									</a>
+								</div>
+								<div class="switcher__item">
+									<a class="switcher__link" href="#">
+										Новини
+										<span>48</span>
+									</a>
+								</div>
+								<div class="switcher__item">
+									<a class="switcher__link" href="#">
+										Статті
+										<span>12</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="news__content">
+						<div class="news__items news-items">
+							<a href="#" class="news__item item-news item-news--graphite">
+								<div class="item-news__inner">
+									<div class="item-news__header">
+										<div class="badge badge--yellow">стаття</div>
+										<div class="badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА НАУКА</div>
+									</div>
+									<div class="item-news__content">
+										<div class="item-news__text-box">
+											<div class="item-news__date">16 листопада 2023</div>
+											<h3 class="item-news__subtitle subtitle">Як кури збільшили врожай цибулі на 20%: Міф чи
+												Реальність?</h3>
+											<div class="item-news__text-holder paragraph item-news__text-holder-js">
+												<p>У світі сільського господарства, де висока продуктивність і врожайність є
+													ключовими
+													факторами, фермери постійно шукають нові шляхи підвищення урожайності культур.
+													Однією з таких несподіваних гіпотез є можливий позитивний вплив домашніх курей на
+													вирощування цибулі.</p>
+											</div>
+										</div>
+										<span class="link link--xs-white _icon-Forward">Читати далі</span>
+									</div>
+									<div class="item-news__bg-holder">
+										<picture><source srcset="img/news-img-01.webp" type="image/webp"><img src="img/news-img-01.jpg" width="256" height="488" alt="image"></picture>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="news__item item-news item-news--graphite">
+								<div class="item-news__inner">
+									<div class="item-news__header">
+										<div class="badge badge--green">новина</div>
+										<div class="badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА НАУКА</div>
+									</div>
+									<div class="item-news__content">
+										<div class="item-news__text-box">
+											<div class="item-news__date">15 листопада 2023</div>
+											<h3 class="item-news__subtitle subtitle">Український експорт продукції АПК: головні
+												зміни
+												з початку війни</h3>
+											<div class="item-news__text-holder item-news__text-holder-js paragraph">
+												<p>З початком російської агресії на території України суттєво змінилася географія
+													експорту. Якщо в довоєнний 2021 рік частка експорту продукції АПК в Європу
+													становив
+													32%, то за результатами 10 місяців 2023 року вже 59%. Однак таке зростання
+													вимушене,
+													так як суттєво скоротилися поставки в інші регіони. Частка експорту в країни
+													Африки
+													скоротили з 14% до 7%, Азії – з 19% до 12%, південно-східної Азії – з 13% до 4%.
+												</p>
+											</div>
+										</div>
+										<span class="link link--xs-white _icon-Forward">Читати далі</span>
+									</div>
+									<div class="item-news__bg-holder">
+										<picture><source srcset="img/news-img-02.webp" type="image/webp"><img src="img/news-img-02.jpg" width="256" height="488" alt="image"></picture>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="news__item item-news">
+								<div class="item-news__left-col">
+									<div class="item-news__image-video-holder">
+										<picture><source srcset="img/news-img-03.webp" type="image/webp"><img src="img/news-img-03.jpg" width="64" height="64" alt="image"></picture>
+									</div>
+								</div>
+								<div class="item-news__right-col">
+									<div class="item-news__content">
+										<div class="item-news__badge-line">
+											<div class="item-news__date">10 листопада 2023</div>
+											<div class="item-news__header">
+												<div class="badge badge--yellow">стаття</div>
+												<div class="badge badge--graphite _icon-Hashtag-l">ЗЕМЛЯ</div>
+											</div>
+										</div>
+										<h3 class="item-news__subtitle paragraph-bold">За 9 місяців 2023 року Україна
+											імпортувала
+											свинини в 4 рази менше, ніж торік</h3>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="news__item item-news">
+								<div class="item-news__left-col">
+									<div class="item-news__image-video-holder">
+										<picture><source srcset="img/news-img-04.webp" type="image/webp"><img src="img/news-img-04.jpg" width="64" height="64" alt="image"></picture>
+									</div>
+								</div>
+								<div class="item-news__right-col">
+									<div class="item-news__content">
+										<div class="item-news__badge-line">
+											<div class="item-news__date">09 листопада 2023</div>
+											<div class="item-news__header">
+												<div class="badge badge--green">новина</div>
+												<div class="badge badge--graphite _icon-Hashtag-l">ЗЕМЛЯ</div>
+											</div>
+										</div>
+										<h3 class="item-news__subtitle paragraph-bold">USDA збільшив прогнози обсягів
+											виробництва та
+											експорту української кукурудзи, а також експорту пшениці
+											9</h3>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="news__item item-news">
+								<div class="item-news__left-col">
+									<div class="item-news__image-video-holder">
+										<picture><source srcset="img/news-img-05.webp" type="image/webp"><img src="img/news-img-05.jpg" width="64" height="64" alt="image"></picture>
+									</div>
+								</div>
+								<div class="item-news__right-col">
+									<div class="item-news__content">
+										<div class="item-news__badge-line">
+											<div class="item-news__date">06 листопада 2023</div>
+											<div class="item-news__header">
+												<div class="badge badge--green">новина</div>
+												<div class="badge badge--graphite _icon-Hashtag-l">ЗЕМЛЯ</div>
+											</div>
+										</div>
+										<h3 class="item-news__subtitle paragraph-bold">Україна на третину наростила імпорт
+											молочних
+											продуктів у жовтні</h3>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="news__item item-news item-news--medium item-news--graphite">
+								<div class="item-news__header header-news-item">
+									<div class="header-news-item__left-col">
+										<div class="item-news__date">05 листопада 2023</div>
+									</div>
+									<div class="header-news-item__right-col">
+										<div class="badge badge--yellow">стаття</div>
+										<div class="badge badge--graphite _icon-Hashtag-l">ТЕХНІКА</div>
+									</div>
+								</div>
+								<div class="item-news__content">
+									<h3 class="item-news__subtitle paragraph-bold">Кредити виживання: через збитковість галузі
+										аграрії
+										просять владу залишити пільгові умови за кредитами “5-7-9”</h3>
+								</div>
+								<div class="item-news__bg-holder">
+									<video src="files/news.mp4" autoplay muted loop preload="auto" playsinline></video>
+								</div>
+							</a>
+						</div>
+						<a class="button button--m _icon-Hamburger" href="#">Читати всі новини</a>
+					</div>
+				</div>
+			</div>
+			<section class="projects" id="projects-section">
+				<div class="projects__container container">
+					<div class="projects__header">
+						<div class="text-block">
+							<div class="text-block__content">
+								<h3>Поточні проєкти</h3>
+								<div class="text-holder">
+									<p>Нормативно-правові акти, над якими працює асоціація</p>
+								</div>
+							</div>
+							<div class="switcher">
+								<div class="switcher__item">
+									<a class="switcher__link _active" href="#">
+										Всі
+										<span>60</span>
+									</a>
+								</div>
+								<div class="switcher__item">
+									<a class="switcher__link" href="#">
+										Завершені
+										<span>48</span>
+									</a>
+								</div>
+								<div class="switcher__item">
+									<a class="switcher__link" href="#">
+										В роботі
+										<span>12</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="projects__content">
+						<div class="projects__items">
+							<div class="projects__item project-item project-item--image">
+								<div class="project-item__image-holder">
+									<picture><source srcset="img/projects-img-01.webp" type="image/webp"><img src="img/projects-img-01.jpg" width="256" height="234" alt="image"></picture>
+								</div>
+							</div>
+							<a href="#" class="projects__item project-item">
+								<div class="project-item__header">
+									<div class="project-item__badge badge badge--graphite-100">Завершено</div>
+									<div class="project-item__badge badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА НАУКА</div>
+								</div>
+								<div class="project-item__content">
+									<h3 class="project-item__subtitle subtitle">Проект Закону «Про внесення змін до Податкового
+										кодексу
+										України щодо удосконалення правового регулювання страхування сільськогосподарської
+										продукції з державною підтримкою»</h3>
+									<div class="project-item__text-holder paragraph">
+										<p>Документ передає с/г землі державної форми власності за межами населених пунктів у
+											власність громад. Значно розширює повноваження громад та передбачає дерегуляцію у сфері
+											земельних відносин, тощо.
+										</p>
+									</div>
+								</div>
+								<span class="link link--xs _icon-Forward">Переглянути</span>
+							</a>
+							<a href="#" class="projects__item project-item">
+								<div class="project-item__header">
+									<div class="project-item__badge badge badge--teal-500">в роботі</div>
+									<div class="project-item__badge badge badge--graphite _icon-Hashtag-l">ТЕХНІКА</div>
+								</div>
+								<div class="project-item__content">
+									<h3 class="project-item__subtitle subtitle">Проект Закону «Про внесення змін до деяких
+										законодавчих актів України (щодо єдиної правової долі земельної ділянки та розміщеного на
+										ній об'єкта нерухомості)»</h3>
+									<div class="project-item__text-holder paragraph">
+										<p>Впроваджується низка позитивних змін стосовно єдиної правової долі земельної ділянки та
+											розміщеного на ній об'єкта нерухомості.
+										</p>
+									</div>
+								</div>
+								<span class="link link--xs _icon-Forward">Переглянути</span>
+							</a>
+							<a href="#" class="projects__item project-item">
+								<div class="project-item__header">
+									<div class="project-item__badge badge badge--teal-500">в роботі</div>
+									<div class="project-item__badge badge badge--graphite _icon-Hashtag-l">ЗЕМЛЯ</div>
+								</div>
+								<div class="project-item__content">
+									<h3 class="project-item__subtitle subtitle">Проект Закону «Про внесення змін до деяких
+										законодавчих актів щодо продажу земельних ділянок державної та комунальної власності або
+										прав на них (оренди, суперфіцію, емфітевзису) через електронні аукціони»</h3>
+									<div class="project-item__text-holder paragraph">
+										<p>Законопроект №2195 передбачає:
+											запровадження обов’язкового продажу земельних ділянок державної та комунальної
+											власності або прав на них (оренди, суперфіцію, емфітевзису) через електронні аукціони
+										</p>
+									</div>
+								</div>
+								<span class="link link--xs _icon-Forward">Переглянути</span>
+							</a>
+							<a href="#" class="projects__item project-item">
+								<div class="project-item__header">
+									<div class="project-item__badge badge badge--graphite-100">Завершено</div>
+									<div class="project-item__badge badge badge--graphite _icon-Hashtag-l">ІНШЕ</div>
+								</div>
+								<div class="project-item__content">
+									<h3 class="project-item__subtitle subtitle">Проект Закону «Про внесення змін до деяких
+										законодавчих актів щодо продажу земельних ділянок державної та комунальної власності або
+										прав на них (оренди, суперфіцію, емфітевзису) через електронні аукціони»</h3>
+									<div class="project-item__text-holder paragraph">
+										<p>Законопроект №2195 передбачає:
+											запровадження обов’язкового продажу земельних ділянок державної та комунальної
+											власності або прав на них (оренди, суперфіцію, емфітевзису) через електронні аукціони
+										</p>
+									</div>
+								</div>
+								<span class="link link--xs _icon-Forward">Переглянути</span>
+							</a>
+							<a href="#" class="projects__item project-item">
+								<div class="project-item__header">
+									<div class="project-item__badge badge badge--graphite-100">Завершено</div>
+									<div class="project-item__badge badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА НАУКА</div>
+								</div>
+								<div class="project-item__content">
+									<h3 class="project-item__subtitle subtitle">Проект Закону «Про внесення змін до деяких
+										законодавчих актів України (щодо одночасного переходу прав на земельну ділянку у зв`язку з
+										переходом прав на об'єкт нерухомого майна, який на ній розташовано)»</h3>
+									<div class="project-item__text-holder paragraph">
+										<p>Проект Закону розроблено з метою усунення прогалин у правовому регулюванні питань,
+											пов’язаних з оформленням та переходом прав на земельну ділянку у разі набуття права
+											власності на нерухоме майно (житловий будинок, будівлю або споруду), що розміщені на
+											ній.
+										</p>
+									</div>
+								</div>
+								<span class="link link--xs _icon-Forward">Переглянути</span>
+							</a>
+						</div>
+						<a class="button button--m _icon-Hamburger" href="#">Відкрити всі акти</a>
+					</div>
+				</div>
+			</section>
+			<section class="offers" id="offers-section">
+				<div class="offers__container container">
+					<div class="offers__header">
+						<div class="offers__logo-holder">
+							<img src="img/logo-art.svg" width="100" height="92" alt="logo">
+						</div>
+						<h2 class="offers__title">Пропозиції від партнерів</h2>
+						<div class="offers__text-holder">
+							<p>Ексклюзивні пропозиції від партнерів аграрного клубу діють для членів нашої закритої спільноти.
+								Приєднуйтесь до нас зараз та отримуйте більше кожен день!</p>
+						</div>
+						<a class="link link--xs  _icon-Forward" href="#">Приєднатися зараз</a>
+					</div>
+					<div class="offers__content">
+						<div class="offers__slider swiper slider-offers">
+							<div class="offers__wrapper swiper-wrapper">
+								<a href="#" class="offers__slide swiper-slide slide-offers slide-offers--green">
+									<div class="slide-offers__image-holder">
+										<picture><source srcset="img/offers-img-01.webp" type="image/webp"><img src="img/offers-img-01.jpg" width="256" height="244" alt="image"></picture>
+									</div>
+									<div class="slide-offers__inner">
+										<div class="slide-offers__badge badge badge--red _icon-Bolt">пропозиція</div>
+										<div class="slide-offers__content">
+											<div class="slide-offers__text-box">
+												<div class="slide-offers__title title">Ефективний захист рослин:</div>
+												<div class="slide-offers__subtitle subtitle">засоби захисту від шкідників та хвороб
+													зі
+													знижками до 45%!
+												</div>
+											</div>
+											<span class="link link--xs-white _icon-ArrowDownRight">отримати зараз</span>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="offers__slide swiper-slide slide-offers slide-offers--brown">
+									<div class="slide-offers__image-holder">
+										<picture><source srcset="img/offers-img-02.webp" type="image/webp"><img src="img/offers-img-02.jpg" width="256" height="244" alt="image"></picture>
+									</div>
+									<div class="slide-offers__inner">
+										<div class="slide-offers__badge badge badge--red _icon-Bolt">пропозиція</div>
+										<div class="slide-offers__content">
+											<div class="slide-offers__text-box">
+												<div class="slide-offers__title title">Отримайте техніку або обладнання у фінансовий лізинг на
+													вигідних умовах
+												</div>
+												<div class="slide-offers__subtitle subtitle">Державна програма «Доступний фінансовий лізинг
+													5-7-9%» разом з Фінансовою компанією АТОМ-ФІНАНС
+
+												</div>
+											</div>
+											<div class="slide-offers__bubble bubble">
+												<div class="bubble__text">лише для членів</div>
+												<div class="bubble__image-holder">
+													<img src="img/bubble-img-01.svg" width="99" height="10" alt="logo">
+												</div>
+											</div>
+											<span class="link link--xs-white _icon-ArrowDownRight">отримати зараз</span>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="offers__slide swiper-slide slide-offers slide-offers--light-brown">
+									<div class="slide-offers__image-holder">
+										<picture><source srcset="img/offers-img-03.webp" type="image/webp"><img src="img/offers-img-03.jpg" width="256" height="244" alt="image"></picture>
+									</div>
+									<div class="slide-offers__inner">
+										<div class="slide-offers__badge badge badge--red _icon-Bolt">пропозиція</div>
+										<div class="slide-offers__content">
+											<div class="slide-offers__text-box">
+												<div class="slide-offers__title title">Екологічні рішення для агробізнесу:</div>
+												<div class="slide-offers__subtitle subtitle">Насіння органічних культур від Nunhems
+													Zaden за спец цінами!
+												</div>
+											</div>
+											<span class="link link--xs-white _icon-ArrowDownRight">отримати зараз</span>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="offers__slide swiper-slide slide-offers slide-offers--green">
+									<div class="slide-offers__image-holder">
+										<picture><source srcset="img/offers-img-01.webp" type="image/webp"><img src="img/offers-img-01.jpg" width="256" height="244" alt="image"></picture>
+									</div>
+									<div class="slide-offers__inner">
+										<div class="slide-offers__badge badge badge--red _icon-Bolt">пропозиція</div>
+										<div class="slide-offers__content">
+											<div class="slide-offers__text-box">
+												<div class="slide-offers__title title">Ефективний захист рослин:</div>
+												<div class="slide-offers__subtitle subtitle">засоби захисту від шкідників та хвороб
+													зі
+													знижками до 45%!
+												</div>
+											</div>
+											<span class="link link--xs-white _icon-ArrowDownRight">отримати зараз</span>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="offers__slide swiper-slide slide-offers slide-offers--brown">
+									<div class="slide-offers__image-holder">
+										<picture><source srcset="img/offers-img-02.webp" type="image/webp"><img src="img/offers-img-02.jpg" width="256" height="244" alt="image"></picture>
+									</div>
+									<div class="slide-offers__inner">
+										<div class="slide-offers__badge badge badge--red _icon-Bolt">пропозиція</div>
+										<div class="slide-offers__content">
+											<div class="slide-offers__text-box">
+												<div class="slide-offers__title title">Ексклюзивна<br>
+													знижка 15%
+												</div>
+												<div class="slide-offers__subtitle subtitle">на всю лінійку коліс для ваших
+													тракторів
+												</div>
+											</div>
+											<div class="slide-offers__bubble bubble">
+												<div class="bubble__text">лише для членів</div>
+												<div class="bubble__image-holder">
+													<img src="img/bubble-img-01.svg" width="99" height="10" alt="logo">
+												</div>
+											</div>
+											<span class="link link--xs-white _icon-ArrowDownRight">отримати зараз</span>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="offers__slide swiper-slide slide-offers slide-offers--light-brown">
+									<div class="slide-offers__image-holder">
+										<picture><source srcset="img/offers-img-03.webp" type="image/webp"><img src="img/offers-img-03.jpg" width="256" height="244" alt="image"></picture>
+									</div>
+									<div class="slide-offers__inner">
+										<div class="slide-offers__badge badge badge--red _icon-Bolt">пропозиція</div>
+										<div class="slide-offers__content">
+											<div class="slide-offers__text-box">
+												<div class="slide-offers__title title">Екологічні рішення для агробізнесу:</div>
+												<div class="slide-offers__subtitle subtitle">Насіння органічних культур від Nunhems
+													Zaden за спец цінами!
+												</div>
+											</div>
+											<span class="link link--xs-white _icon-ArrowDownRight">отримати зараз</span>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="slider-offers__nav">
+								<button type="button" class="swiper-button-prev _icon-ArrowLeft"></button>
+								<div class="slider-offers__scrollbar-wrapper">
+									<div class="swiper-scrollbar"></div>
+								</div>
+								<button type="button" class="swiper-button-next _icon-ArrowRight"></button>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="offers__bg-holder bg-holder">
+					<picture>
+						<source media="(min-width:1280px)" srcset="img/bg-offers-desc.jpg" type="image/webp">
+						<img src="img/bg-offers.jpg" width="1279" height="842" alt="image">
+
+					</picture>
+				</div>
+			</section>
+			<div class="clients" id="clients-block">
+				<div class="clients__container container">
+					<div class="clients__logo">
+						<div class="clients__slider swiper slider-clients">
+							<div class="clients__wrapper swiper-wrapper">
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-01.svg" width="125" height="125" alt="Agrarian club">
+									</div>
+								</div>
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-02.svg" width="125" height="125" alt="John deere">
+									</div>
+								</div>
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-03.svg" width="125" height="125" alt="John deere">
+									</div>
+								</div>
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-04.svg" width="125" height="125" alt="John deere">
+									</div>
+								</div>
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-05.svg" width="125" height="125" alt="John deere">
+									</div>
+								</div>
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-06.svg" width="125" height="125" alt="John deere">
+									</div>
+								</div>
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-07.svg" width="125" height="125" alt="John deere">
+									</div>
+								</div>
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-08.svg" width="125" height="125" alt="John deere">
+									</div>
+								</div>
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-01.svg" width="125" height="125" alt="Agrarian club">
+									</div>
+								</div>
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-02.svg" width="125" height="125" alt="John deere">
+									</div>
+								</div>
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-03.svg" width="125" height="125" alt="John deere">
+									</div>
+								</div>
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-04.svg" width="125" height="125" alt="John deere">
+									</div>
+								</div>
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-05.svg" width="125" height="125" alt="John deere">
+									</div>
+								</div>
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-06.svg" width="125" height="125" alt="John deere">
+									</div>
+								</div>
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-07.svg" width="125" height="125" alt="John deere">
+									</div>
+								</div>
+								<div class="clients__slide swiper-slide slide-clients">
+									<div class="slide-clients__img-holder">
+										<img src="img/clients-08.svg" width="125" height="125" alt="John deere">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="cta" id="cta-section">
+				<div class="cta__container container">
+					<div class="cta__left-col">
+						<div class="text-block">
+							<div class="text-block__content">
+								<h2>Приєднайся до спільноти!</h2>
+								<div class="text-holder">
+									<p>Приєднуйтесь до ексклюзивного Аграрного Клубу для бізнесу та розширте свої можливості у
+										сільськогосподарській індустрії!</p>
+									<p>
+										Отримайте доступ до передових технологій, експертної поради та вигідних партнерських
+										зв'язків, які допоможуть вашому бізнесу процвітати
+									</p>
+								</div>
+							</div>
+						</div>
+						<a data-fancybox data-src="#join-modal" href="javascript:;" class="button button--s">приєднатись
+							зараз</a>
+					</div>
+					<div class="cta__right-col">
+						<div class="cta__image-holder">
+							<picture><source srcset="img/cta-img.webp" type="image/webp"><img src="img/cta-img.png" width="257" height="233" alt="image"></picture>
+						</div>
+						<div class="message">
+							<div class="message__text-holder">
+								<p>“Разом ми створюємо сильну спільноту аграріїв, збагачуючи один одного знаннями та досвідом,
+									щоб
+									досягти успіху в сільському господарстві.</p>
+								<p>Наш клуб - це місце, де ми надихаємося і розвиваємося разом, прагнучи інновацій та
+									процвітання
+									кожного
+									члена!”</p>
+							</div>
+							<div class="message__footer">
+								<div class="message__author">
+									<span>Джон Смит</span>
+									<p>Президент Аграрного Клуба</p>
+								</div>
+								<div class="message__logo">
+									<img src="img/message-logo.svg" width="16" height="16" alt="logo">
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="faq" id="faq-section">
+				<div class="faq__container container">
+					<div class="accordion">
+						<div class="accordion__wrapper">
+							<div class="accordion__count"></div>
+							<div class="accordion__inner">
+								<button class="accordion__title subtitle">Завантажте заяву</button>
+								<div class="accordion__content ">
+									<div class="accordion__text-holder paragraph">
+										<p>Підготуйте та заповніть детальну заяву, в якій зазначте прохання прийняти вашу компанію
+											в
+											асоційовані члени. Включіть основну інформацію про вашу компанію, мету приєднання та
+											потенційні вигоди співпраці з асоціацією.</p>
+									</div>
+									<div class="accordion__useful-link useful-link">
+										<div class="useful-link__header">
+											<h4 class="useful-link__title paragraph-bold _icon-Paperclip">Корисні посилання:</h4>
+										</div>
+										<div class="useful-link__content">
+											<a class="link link--xs _icon-ArrowRight-a" href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" target="_blank">Завантажити
+												заяву (PDF)</a>
+											<a class="link link--xs _icon-ArrowRight-a" data-fancybox data-src="#consultation-modal" href="javascript:;">Форма зворотного зв'язку</a>
+											<a class="link link--xs _icon-ArrowRight-a" href="#">Сторінка контактів</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion__close _icon-Plus"></div>
+						</div>
+						<div class="accordion__wrapper">
+							<div class="accordion__count"></div>
+							<div class="accordion__inner">
+								<button class="accordion__title subtitle">Підготуйте документи</button>
+								<div class="accordion__content ">
+									<div class="accordion__text-holder paragraph">
+										<p>Зробіть скан заповненої заяви (на документі повинна бути зазначена печатка та підпис)
+											та додайте виписку/витяг з Єдиного державного реєстру (ЄДР).</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion__close _icon-Plus"></div>
+						</div>
+						<div class="accordion__wrapper">
+							<div class="accordion__count"></div>
+							<div class="accordion__inner">
+								<button class="accordion__title subtitle">Надішліть на пошту</button>
+								<div class="accordion__content ">
+									<div class="accordion__text-holder paragraph">
+										<p>Надішліть ці два документи (заяву з підписом та виписку з ЄДР) на офіційну електронну
+											пошту асоціації.</p>
+									</div>
+									<div class="accordion__useful-link useful-link">
+										<div class="useful-link__header">
+											<h4 class="useful-link__title paragraph-bold _icon-Paperclip">Корисні посилання:</h4>
+										</div>
+										<div class="useful-link__content">
+											<a class="link link--xs _icon-ArrowRight-a" href="mailto:agrarianclub@ukr.net">agrarianclub@ukr.net</a>
+											<a class="link link--xs _icon-ArrowRight-a" data-fancybox data-src="#consultation-modal" href="javascript:;">Форма зворотного зв'язку</a>
+											<a class="link link--xs _icon-ArrowRight-a" href="#">Сторінка контактів</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion__close _icon-Plus"></div>
+						</div>
+						<div class="accordion__wrapper">
+							<div class="accordion__count"></div>
+							<div class="accordion__inner">
+								<button class="accordion__title subtitle">Очікуйте на відповідь</button>
+								<div class="accordion__content ">
+									<div class="accordion__text-holder paragraph">
+										<p>Очікуйте на реакцію асоціації щодо вашої заявки. Вони повинні повідомити вас про
+											подальші кроки щодо приєднання вашої компанії.</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion__close _icon-Plus"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="reviews" id="reviews-section">
+				<div class="reviews__container container">
+					<div class="reviews__header">
+						<h2 class="reviews__title title-big">Відгуки членів клубу</h2>
+					</div>
+					<div class="reviews__content">
+						<div class="reviews__items">
+							<a data-fancybox data-src="#reviews-01" href="javascript:;" class="reviews__item item-reviews">
+								<div class="item-reviews__text-holder paragraph">
+									<p>"Приєднавшись до Аграрного Клубу, ми отримали не тільки доступ до останніх технологій та
+										новітніх трендів у сільському господарстві, але й цінні партнерські зв'язки, які допомогли
+										розширити наше сільськогосподарське підприємство. Це чудова спільнота фахівців у галузі,
+										де
+										обмін досвідом та знаннями став для нас ключем. до успіху. Ми вдячні за можливість бути
+										частиною цього клубу. 😊🌾"</p>
+								</div>
+								<div class="item-reviews__name name-box">
+									<div class="name-box__left-col">
+										<div class="name-box__image-holder">
+											<picture><source srcset="img/reviews-01.webp" type="image/webp"><img src="img/reviews-01.jpg" width="32" height="32" alt="image"></picture>
+										</div>
+									</div>
+									<div class="name-box__right-col">
+										<div class="name-box__text-holder paragraph-bold">
+											<p>Анна Іванова, Генеральний директор ТОВ "Агро Прогрес"</p>
+										</div>
+									</div>
+								</div>
+								<span class="item-reviews__link link--xs _icon-ArrowSquareIn">Переглянути</span>
+							</a>
+							<a data-fancybox data-src="#reviews-02" href="javascript:;" class="reviews__item item-reviews">
+								<div class="item-reviews__text-holder paragraph">
+									<p>“Приєднався до Аграрного Клубу та бачу, як це круто! Тут не просто інформація – це цілий
+										світ знань про фермерство. Люди діляться досвідом, як ми із друзями за чаєм. Знайшов нових
+										крутих товаришів та допомогу, коли раптом щось не ладнається. Це місце, де знаходиш
+										натхнення та ідеї для своєї справи.”</p>
+								</div>
+								<div class="item-reviews__name name-box">
+									<div class="name-box__left-col">
+										<div class="name-box__image-holder">
+											<picture><source srcset="img/reviews-02.webp" type="image/webp"><img src="img/reviews-02.jpg" width="32" height="32" alt="image"></picture>
+										</div>
+									</div>
+									<div class="name-box__right-col">
+										<div class="name-box__text-holder paragraph-bold">
+											<p>Иван Петров, фермер.</p>
+										</div>
+									</div>
+								</div>
+								<span class="item-reviews__link link--xs _icon-ArrowSquareIn">Переглянути</span>
+							</a>
+							<a data-fancybox data-src="#reviews-03" href="javascript:;" class="reviews__item item-reviews">
+								<div class="item-reviews__text-holder paragraph">
+									<p>"Аграрний Клуб був справжнім порятунком для мене в питаннях юриспруденції. Коли у мене
+										виникли проблеми із правовими аспектами у сільському господарстві, я звернувся до
+										спільноти клубу. Тут я знайшов не лише поради, а й рекомендації досвідчених аграріїв та
+										юристів, що спеціалізуються у сільськогосподарській сфері. Завдяки їхній допомозі та
+										консультаціям я розібрався у багатьох нюансах і успішно вирішив свої юридичні питання.
+										Клуб став для мене не просто майданчиком для обміну досвідом, але й надійним джерелом
+										підтримки в юридичних питаннях. Велике спасибі клубу за таку цінну допомогу!</p>
+								</div>
+								<div class="item-reviews__name name-box">
+									<div class="name-box__left-col">
+										<div class="name-box__image-holder name-box__image-holder--logo">
+											<img src="img/reviews-03.svg" width="32" height="32" alt="image">
+										</div>
+									</div>
+									<div class="name-box__right-col">
+										<div class="name-box__text-holder paragraph-bold">
+											<p>Марія Петрова, головний агроном, ТОВ "Агрофлора"</p>
+										</div>
+									</div>
+								</div>
+								<span class="item-reviews__link link--xs _icon-ArrowSquareIn">Переглянути</span>
+							</a>
+							<a data-fancybox data-src="#reviews-04" href="javascript:;" class="reviews__item item-reviews">
+								<div class="item-reviews__text-holder paragraph">
+									<p>"Проведення аналізу нашої компанії виявилося ключовим моментом для нашого розвитку.
+										Завдяки глибокому дослідженню галузі та внутрішніх процесів нашого підприємства, ми
+										отримали ясне уявлення про наші сильні сторони та галузі, де ми можемо покращитись.
+										Аналітичний звіт, наданий експертами клубу, був дуже інформативним і зрозумілим Ми змогли
+										точно визначити стратегічні кроки для нашого майбутнього зростання та розвитку. Це було
+										цінно для нас як для компанії, і я рекомендую подібні аналітичні послуги всім, хто прагне
+										прогресу свого бізнесу.</p>
+								</div>
+								<div class="item-reviews__name name-box">
+									<div class="name-box__left-col">
+										<div class="name-box__image-holder name-box__image-holder--logo">
+											<img src="img/reviews-03.svg" width="32" height="32" alt="image">
+										</div>
+									</div>
+									<div class="name-box__right-col">
+										<div class="name-box__text-holder paragraph-bold">
+											<p>Дмитро Смирнов, директор ТОВ "Агропрофіт"</p>
+										</div>
+									</div>
+								</div>
+								<span class="item-reviews__link link--xs _icon-ArrowSquareIn">Переглянути</span>
+							</a>
+							<a data-fancybox data-src="#reviews-05" href="javascript:;" class="reviews__item item-reviews">
+								<div class="item-reviews__text-holder paragraph">
+									<p>"Ми вирішили оновити нашу сільськогосподарську техніку і звернулися за допомогою до клубу.
+										Отримали багато порад від інших фермерів та експертів. Завдяки цьому змогли вибрати
+										найкраще обладнання за прийнятною ціною. Тепер у нас нова техніка, яка допомагає нам
+										працювати легше та швидше. Дякуємо клубу за цінні рекомендації!</p>
+								</div>
+								<div class="item-reviews__name name-box">
+									<div class="name-box__left-col">
+										<div class="name-box__image-holder">
+											<picture><source srcset="img/reviews-04.webp" type="image/webp"><img src="img/reviews-04.jpg" width="32" height="32" alt="image"></picture>
+										</div>
+									</div>
+									<div class="name-box__right-col">
+										<div class="name-box__text-holder paragraph-bold">
+											<p>Олена Ніколаєва, керівник відділу закупівель, ТОВ "Зелений урожай"</p>
+										</div>
+									</div>
+								</div>
+								<span class="item-reviews__link link--xs _icon-ArrowSquareIn">Переглянути</span>
+							</a>
+							<a data-fancybox data-src="#reviews-06" href="javascript:;" class="reviews__item item-reviews">
+								<div class="item-reviews__text-holder paragraph">
+									<p>"Ми вирішили спробувати свої сили на закордонних ринках і звернулися за допомогою у клубі.
+										Отримали багато корисної інформації про вимоги та особливості закордонного бізнесу. 🌍
+										Завдяки порадам та підтримці експертів клубу, ми розробили стратегію виходу, адаптовану до
+										міжнародних стандартів. Тепер наш бізнес успішно працює за кордоном, і ми вдячні клубу за
+										підтримку у цьому важливому кроці для нашого розвитку. 🚀"</p>
+								</div>
+								<div class="item-reviews__name name-box">
+									<div class="name-box__left-col">
+										<div class="name-box__image-holder">
+											<picture><source srcset="img/reviews-05.webp" type="image/webp"><img src="img/reviews-05.jpg" width="32" height="32" alt="image"></picture>
+										</div>
+									</div>
+									<div class="name-box__right-col">
+										<div class="name-box__text-holder paragraph-bold">
+											<p>Ганна Кузнєцова, керівник відділу закупівель, ТОВ "Сільгосптрейд"</p>
+										</div>
+									</div>
+								</div>
+								<span class="item-reviews__link link--xs _icon-ArrowSquareIn">Переглянути</span>
+							</a>
+						</div>
+						<a class="button button--m" href="#">Завантажити ще</a>
+					</div>
+				</div>
+			</section>
+			<section class="media" id="media-section">
+				<div class="media__container container">
+					<div class="media__header">
+						<div class="text-block">
+							<div class="text-block__content">
+								<h3>ЗМІ про нас</h3>
+								<div class="text-holder">
+									<p>Ми постійно ділимося успішними сільськогосподарськими кейсами та історіями наших
+										учасників, надаємо рекомендації для підвищення ефективності в галузі агробізнесу, ділимося
+										корисними порадами з використання сучасних технологій, ведення фермерського господарства
+										та іншими цікавими аспектами сільського господарства.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="media__content">
+						<div class="media__items">
+							<a href="#" class="media__item item-media">
+								<div class="item-media__left-col">
+									<div class="item-media__image-holder">
+										<img src="img/media-01.svg" width="70" height="15" alt="logo">
+									</div>
+								</div>
+								<div class="item-media__right-col">
+									<div class="item-media__header">
+										<div class="item-media__date"><span>16 листопада 2023</span></div>
+										<div class="item-media__badge badge badge--blue _icon-Hashtag-l">згадка у змі</div>
+									</div>
+									<div class="item-media__text-holder paragraph-bold">
+										<p>Аграрний клуб об'єднує фермерів для обміну передовими практиками у сфері сільського
+											господарства</p>
+									</div>
+									<span class="item-media__link link--xs _icon-Forward">Відкрити джерело</span>
+								</div>
+							</a>
+							<a href="#" class="media__item item-media">
+								<div class="item-media__left-col">
+									<div class="item-media__image-holder">
+										<img src="img/media-02.svg" width="70" height="15" alt="logo">
+									</div>
+								</div>
+								<div class="item-media__right-col">
+									<div class="item-media__header">
+										<div class="item-media__date"><span>16 листопада 2023</span></div>
+										<div class="item-media__badge badge badge--blue _icon-Hashtag-l">згадка у змі</div>
+									</div>
+									<div class="item-media__text-holder paragraph-bold">
+										<p>Аграрний клуб об'єднує фермерів для обміну передовими практиками у сфері сільського
+											господарства</p>
+									</div>
+									<span class="item-media__link link--xs _icon-Forward">Відкрити джерело</span>
+								</div>
+							</a>
+							<a href="#" class="media__item item-media">
+								<div class="item-media__left-col">
+									<div class="item-media__image-holder">
+										<img src="img/media-03.svg" width="70" height="15" alt="logo">
+									</div>
+								</div>
+								<div class="item-media__right-col">
+									<div class="item-media__header">
+										<div class="item-media__date"><span>16 листопада 2023</span></div>
+										<div class="item-media__badge badge badge--blue _icon-Hashtag-l">згадка у змі</div>
+									</div>
+									<div class="item-media__text-holder paragraph-bold">
+										<p>Аграрний клуб об'єднує фермерів для обміну передовими практиками у сфері сільського
+											господарства</p>
+									</div>
+									<span class="item-media__link link--xs _icon-Forward">Відкрити джерело</span>
+								</div>
+							</a>
+							<a href="#" class="media__item item-media">
+								<div class="item-media__left-col">
+									<div class="item-media__image-holder">
+										<img src="img/media-04.svg" width="70" height="15" alt="logo">
+									</div>
+								</div>
+								<div class="item-media__right-col">
+									<div class="item-media__header">
+										<div class="item-media__date"><span>16 листопада 2023</span></div>
+										<div class="item-media__badge badge badge--blue _icon-Hashtag-l">згадка у змі</div>
+									</div>
+									<div class="item-media__text-holder paragraph-bold">
+										<p>Аграрний клуб об'єднує фермерів для обміну передовими практиками у сфері сільського
+											господарства</p>
+									</div>
+									<span class="item-media__link link--xs _icon-Forward">Відкрити джерело</span>
+								</div>
+							</a>
+							<a href="#" class="media__item item-media">
+								<div class="item-media__left-col">
+									<div class="item-media__image-holder">
+										<img src="img/media-05.svg" width="70" height="15" alt="logo">
+									</div>
+								</div>
+								<div class="item-media__right-col">
+									<div class="item-media__header">
+										<div class="item-media__date"><span>16 листопада 2023</span></div>
+										<div class="item-media__badge badge badge--blue _icon-Hashtag-l">згадка у змі</div>
+									</div>
+									<div class="item-media__text-holder paragraph-bold">
+										<p>Аграрний клуб об'єднує фермерів для обміну передовими практиками у сфері сільського
+											господарства</p>
+									</div>
+									<span class="item-media__link link--xs _icon-Forward">Відкрити джерело</span>
+								</div>
+							</a>
+							<a href="#" class="media__item item-media">
+								<div class="item-media__left-col">
+									<div class="item-media__image-holder">
+										<img src="img/media-06.svg" width="70" height="15" alt="logo">
+									</div>
+								</div>
+								<div class="item-media__right-col">
+									<div class="item-media__header">
+										<div class="item-media__date"><span>16 листопада 2023</span></div>
+										<div class="item-media__badge badge badge--blue _icon-Hashtag-l">згадка у змі</div>
+									</div>
+									<div class="item-media__text-holder paragraph-bold">
+										<p>Аграрний клуб об'єднує фермерів для обміну передовими практиками у сфері сільського
+											господарства</p>
+									</div>
+									<span class="item-media__link link--xs _icon-Forward">Відкрити джерело</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="completed" id="name-section">
+				<div class="completed__container container">
+					<div class="completed__header">
+						<div class="text-block">
+							<div class="text-block__content">
+								<h3>Завершені впровадження</h3>
+								<div class="text-holder">
+									<p>Нормативно-правові акти, які ми фінішували</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="completed__content">
+						<div class="completed__slider swiper slider-completed">
+							<div class="completed__wrapper swiper-wrapper">
+								<a href="#" class="completed__slide swiper-slide slide-completed">
+									<div class="slide-completed__inner">
+										<div class="slide-completed__badge badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА
+											НАУКА
+										</div>
+										<div class="slide-completed__text-holder paragraph-bold">
+											<p>Проект Закону «Про внесення змін до Податкового кодексу України щодо удосконалення
+												правового регулювання страхування сільськогосподарської продукції з державною
+												підтримкою»</p>
+										</div>
+										<span class="slide-completed__link link--xs _icon-Forward">Переглянути</span>
+									</div>
+								</a>
+								<a href="#" class="completed__slide swiper-slide slide-completed">
+									<div class="slide-completed__inner">
+										<div class="slide-completed__badge badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА
+											НАУКА
+										</div>
+										<div class="slide-completed__text-holder paragraph-bold">
+											<p>Проект Закону «Про внесення змін до Податкового кодексу України щодо удосконалення
+												правового регулювання страхування сільськогосподарської продукції з державною
+												підтримкою»</p>
+										</div>
+										<span class="slide-completed__link link--xs _icon-Forward">Переглянути</span>
+									</div>
+								</a>
+								<a href="#" class="completed__slide swiper-slide slide-completed">
+									<div class="slide-completed__inner">
+										<div class="slide-completed__badge badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА
+											НАУКА
+										</div>
+										<div class="slide-completed__text-holder paragraph-bold">
+											<p>Проект Закону «Про внесення змін до Податкового кодексу України щодо удосконалення
+												правового регулювання страхування сільськогосподарської продукції з державною
+												підтримкою»</p>
+										</div>
+										<span class="slide-completed__link link--xs _icon-Forward">Переглянути</span>
+									</div>
+								</a>
+								<a href="#" class="completed__slide swiper-slide slide-completed">
+									<div class="slide-completed__inner">
+										<div class="slide-completed__badge badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА
+											НАУКА
+										</div>
+										<div class="slide-completed__text-holder paragraph-bold">
+											<p>Проект Закону «Про внесення змін до Податкового кодексу України щодо удосконалення
+												правового регулювання страхування сільськогосподарської продукції з державною
+												підтримкою»</p>
+										</div>
+										<span class="slide-completed__link link--xs _icon-Forward">Переглянути</span>
+									</div>
+								</a>
+								<a href="#" class="completed__slide swiper-slide slide-completed">
+									<div class="slide-completed__inner">
+										<div class="slide-completed__badge badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА
+											НАУКА
+										</div>
+										<div class="slide-completed__text-holder paragraph-bold">
+											<p>Проект Закону «Про внесення змін до Податкового кодексу України щодо удосконалення
+												правового регулювання страхування сільськогосподарської продукції з державною
+												підтримкою»</p>
+										</div>
+										<span class="slide-completed__link link--xs _icon-Forward">Переглянути</span>
+									</div>
+								</a>
+								<a href="#" class="completed__slide swiper-slide slide-completed">
+									<div class="slide-completed__inner">
+										<div class="slide-completed__badge badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА
+											НАУКА
+										</div>
+										<div class="slide-completed__text-holder paragraph-bold">
+											<p>Проект Закону «Про внесення змін до Податкового кодексу України щодо удосконалення
+												правового регулювання страхування сільськогосподарської продукції з державною
+												підтримкою»</p>
+										</div>
+										<span class="slide-completed__link link--xs _icon-Forward">Переглянути</span>
+									</div>
+								</a>
+								<a href="#" class="completed__slide swiper-slide slide-completed">
+									<div class="slide-completed__inner">
+										<div class="slide-completed__badge badge badge--graphite _icon-Hashtag-l">ОСВІТА ТА
+											НАУКА
+										</div>
+										<div class="slide-completed__text-holder paragraph-bold">
+											<p>Проект Закону «Про внесення змін до Податкового кодексу України щодо удосконалення
+												правового регулювання страхування сільськогосподарської продукції з державною
+												підтримкою»</p>
+										</div>
+										<span class="slide-completed__link link--xs _icon-Forward">Переглянути</span>
+									</div>
+								</a>
+							</div>
+							<div class="slider-completed__nav">
+								<button type="button" class="swiper-button-prev _icon-ArrowLeft"></button>
+								<div class="slider-completed__scrollbar-wrapper">
+									<div class="swiper-scrollbar"></div>
+								</div>
+								<button type="button" class="swiper-button-next _icon-ArrowRight"></button>
+							</div>
+						</div>
+						<a class="button button--m">Подивитись
+							всі</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__content">
+					<div class="footer__col">
+						<a href="#" class="footer__logo">
+							<img src="img/logo.svg" width="105" height="30" alt="agrarian club">
+						</a>
+						<div class="footer__text-holder">
+							<p>АСОЦІАЦІЯ «АГРАРНИЙ КЛУБ»<br>
+								вул. Вокзальна, 11/1, смт Глеваха, Київська обл., 08631, Код ЄДРПОУ 45297491</p>
+						</div>
+						<div class="footer__link-box">
+							<a class="footer__link _icon-PhoneCalling" href="tel:+380665589877">+38 (066) 558 98 77</a>
+							<a class="footer__link _icon-Letter" href="mailto:agrarianclub@ukr.net">agrarianclub@ukr.net</a>
+						</div>
+					</div>
+					<div class="footer__col">
+						<div class="footer__menu-links menu-links">
+							<div class="menu-links__title _icon-ArrowUp">Клієнтам</div>
+							<ul class="menu-links__list">
+								<li><a class="link link--xs" href="#">Головна</a></li>
+								<li class="d-none"><a class="link link--xs" href="#">Новини та статті</a></li>
+								<li><a class="link link--xs" href="contacts.html">Контакти</a></li>
+							</ul>
+						</div>
+						<div class="footer__menu-links menu-links">
+							<div class="menu-links__title _icon-ArrowUp">Про нас</div>
+							<ul class="menu-links__list">
+								<li><a class="link link--xs" href="teams.html">Історія компанії</a>
+								</li>
+								<li><a class="link link--xs" href="teams.html">Наша команда</a></li>
+								<li><a class="link link--xs" href="association.html">Члени
+										асоціації</a></li>
+								<li><a class="link link--xs" href="partners.html">Партнери</a></li>
+							</ul>
+						</div>
+						<div class="footer__menu-links menu-links d-none">
+							<div class="menu-links__title _icon-ArrowUp">Лобіювання</div>
+							<ul class="menu-links__list">
+								<li><a class="link link--xs" href="#">Підтримка АПК</a></li>
+								<li><a class="link link--xs" href="#">Земля</a></li>
+								<li><a class="link link--xs" href="#">Освіта та наука</a></li>
+								<li><a class="link link--xs" href="#">Техніка</a></li>
+								<li><a class="link link--xs" href="#">Інше</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__col">
+						<div class="footer__form">
+							<form class="form">
+								<h3>Запит зв'язку</h3>
+								<div class="form__inner">
+									<div class="form__input-holder form__input-holder--phone">
+										<span>
+											<input id="phone-01" type="tel" value="" name="phone-client" placeholder="+38 (XXX) XXX XX XX">
+										</span>
+									</div>
+									<div class="form__button-holder">
+										<button class="button button--s" type="submit">
+											Замовити дзвінок
+										</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="footer__copyright copyright-footer">
+					<div class="copyright-footer__logo-holder">
+						<img src="img/logo-art.svg" width="100" height="92" alt="logo">
+					</div>
+					<div class="copyright-footer__text-holder">
+						<p>© 2023 agrarianclub.com.ua - ASSOCIATION "AGRARIAN CLUB". St. Vokzalna, 11/1, Hlevakha village,
+							Kyiv
+							region, 08631, EDRPOU code 45297491. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bg-holder bg-holder">
+				<picture>
+					<source media="(min-width:1280px)" srcset="img/bg-footer-desc.jpg" type="image/webp">
+					<img src="img/bg-footer.jpg" width="1279" height="755" alt="image">
+
+				</picture>
+			</div>
+			<a class="label-agency" href="#">
+				<img src="img/label-agency.svg" width="109" height="53" alt="shapoval agancy">
+			</a>
+		</footer>
+		<div style="display: none;" id="reviews-01" class="reviews-modal">
+			<div class="reviews-modal__inner">
+				<h2 class="reviews-modal__title title-big">Відгуки членів клубу</h2>
+				<div class="reviews-modal__text-holder paragraph">
+					<p>"Приєднавшись до Аграрного Клубу, ми отримали не тільки доступ до останніх технологій та новітніх
+						трендів
+						у сільському господарстві, але й цінні партнерські зв'язки, які допомогли розширити наше
+						сільськогосподарське підприємство. Це чудова спільнота фахівців у галузі, де обмін досвідом та
+						знаннями
+						став для нас ключем. до успіху. Ми вдячні за можливість бути частиною цього клубу. 😊🌾</p>
+					<p>ми отримали не тільки доступ до останніх технологій та новітніх трендів у сільському господарстві, але
+						й
+						цінні партнерські зв'язки, які допомогли розширити наше сільськогосподарське підприємство. Це чудова
+						спільнота "</p>
+				</div>
+				<div class="reviews-modal__name name-box">
+					<div class="name-box__left-col">
+						<div class="name-box__image-holder">
+							<picture><source srcset="img/reviews-01.webp" type="image/webp"><img src="img/reviews-01.jpg" width="32" height="32" alt="image"></picture>
+						</div>
+					</div>
+					<div class="name-box__right-col">
+						<div class="name-box__text-holder paragraph-bold">
+							<p>Анна Іванова, Генеральний директор ТОВ "Агро Прогрес"</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="display: none;" id="reviews-02" class="reviews-modal">
+			<div class="reviews-modal__inner">
+				<h2 class="reviews-modal__title title-big">Відгуки членів клубу</h2>
+				<div class="reviews-modal__text-holder paragraph">
+					<p>“Приєднався до Аграрного Клубу та бачу, як це круто! Тут не просто інформація – це цілий світ знань про
+						фермерство. Люди діляться досвідом, як ми із друзями за чаєм. Знайшов нових крутих товаришів та допомогу, коли
+						раптом щось не ладнається. Це місце, де знаходиш натхнення та ідеї для своєї справи.”</p>
+				</div>
+				<div class="reviews-modal__name name-box">
+					<div class="name-box__left-col">
+						<div class="name-box__image-holder">
+							<picture><source srcset="img/reviews-02.webp" type="image/webp"><img src="img/reviews-02.jpg" width="32" height="32" alt="image"></picture>
+						</div>
+					</div>
+					<div class="name-box__right-col">
+						<div class="name-box__text-holder paragraph-bold">
+							<p>Иван Петров, фермер.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="display: none;" id="reviews-03" class="reviews-modal">
+			<div class="reviews-modal__inner">
+				<h2 class="reviews-modal__title title-big">Відгуки членів клубу</h2>
+				<div class="reviews-modal__text-holder paragraph">
+					<p>"Аграрний Клуб був справжнім порятунком для мене в питаннях юриспруденції. Коли у мене виникли проблеми із
+						правовими аспектами у сільському господарстві, я звернувся до спільноти клубу. Тут я знайшов не лише поради, а
+						й рекомендації досвідчених аграріїв та юристів, що спеціалізуються у сільськогосподарській сфері. Завдяки
+						їхній допомозі та консультаціям я розібрався у багатьох нюансах і успішно вирішив свої юридичні питання. Клуб
+						став для мене не просто майданчиком для обміну досвідом, але й надійним джерелом підтримки в юридичних
+						питаннях. Велике спасибі клубу за таку цінну допомогу!</p>
+				</div>
+				<div class="reviews-modal__name name-box">
+					<div class="name-box__left-col">
+						<div class="name-box__image-holder name-box__image-holder--logo">
+							<img src="img/reviews-03.svg" width="32" height="32" alt="image">
+						</div>
+					</div>
+					<div class="name-box__right-col">
+						<div class="name-box__text-holder paragraph-bold">
+							<p>Марія Петрова, головний агроном, ТОВ "Агрофлора"</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="display: none;" id="reviews-04" class="reviews-modal">
+			<div class="reviews-modal__inner">
+				<h2 class="reviews-modal__title title-big">Відгуки членів клубу</h2>
+				<div class="reviews-modal__text-holder paragraph">
+					<p>"Проведення аналізу нашої компанії виявилося ключовим моментом для нашого розвитку. Завдяки глибокому
+						дослідженню галузі та внутрішніх процесів нашого підприємства, ми отримали ясне уявлення про наші сильні
+						сторони та галузі, де ми можемо покращитись. Аналітичний звіт, наданий експертами клубу, був дуже
+						інформативним і зрозумілим Ми змогли точно визначити стратегічні кроки для нашого майбутнього зростання та
+						розвитку. Це було цінно для нас як для компанії, і я рекомендую подібні аналітичні послуги всім, хто прагне
+						прогресу свого бізнесу.</p>
+				</div>
+				<div class="reviews-modal__name name-box">
+					<div class="name-box__left-col">
+						<div class="name-box__image-holder name-box__image-holder--logo">
+							<img src="img/reviews-03.svg" width="32" height="32" alt="image">
+						</div>
+					</div>
+					<div class="name-box__right-col">
+						<div class="name-box__text-holder paragraph-bold">
+							<p>Дмитро Смирнов, директор ТОВ "Агропрофіт"</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="display: none;" id="reviews-05" class="reviews-modal">
+			<div class="reviews-modal__inner">
+				<h2 class="reviews-modal__title title-big">Відгуки членів клубу</h2>
+				<div class="reviews-modal__text-holder paragraph">
+					<p>"Ми вирішили оновити нашу сільськогосподарську техніку і звернулися за допомогою до клубу. Отримали багато
+						порад від інших фермерів та експертів. Завдяки цьому змогли вибрати найкраще обладнання за прийнятною ціною.
+						Тепер у нас нова техніка, яка допомагає нам працювати легше та швидше. Дякуємо клубу за цінні
+						рекомендації!</p>
+				</div>
+				<div class="reviews-modal__name name-box">
+					<div class="name-box__left-col">
+						<div class="name-box__image-holder">
+							<picture><source srcset="img/reviews-04.webp" type="image/webp"><img src="img/reviews-04.jpg" width="32" height="32" alt="image"></picture>
+						</div>
+					</div>
+					<div class="name-box__right-col">
+						<div class="name-box__text-holder paragraph-bold">
+							<p>Олена Ніколаєва, керівник відділу закупівель, ТОВ "Зелений урожай"</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="display: none;" id="reviews-06" class="reviews-modal">
+			<div class="reviews-modal__inner">
+				<h2 class="reviews-modal__title title-big">Відгуки членів клубу</h2>
+				<div class="reviews-modal__text-holder paragraph">
+					<p>"Ми вирішили спробувати свої сили на закордонних ринках і звернулися за допомогою у клубі. Отримали багато
+						корисної інформації про вимоги та особливості закордонного бізнесу. 🌍 Завдяки порадам та підтримці експертів
+						клубу, ми розробили стратегію виходу, адаптовану до міжнародних стандартів. Тепер наш бізнес успішно працює за
+						кордоном, і ми вдячні клубу за підтримку у цьому важливому кроці для нашого розвитку. 🚀"</p>
+				</div>
+				<div class="reviews-modal__name name-box">
+					<div class="name-box__left-col">
+						<div class="name-box__image-holder">
+							<picture><source srcset="img/reviews-05.webp" type="image/webp"><img src="img/reviews-05.jpg" width="32" height="32" alt="image"></picture>
+						</div>
+					</div>
+					<div class="name-box__right-col">
+						<div class="name-box__text-holder paragraph-bold">
+							<p>Ганна Кузнєцова, керівник відділу закупівель, ТОВ "Сільгосптрейд"</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="display: none;" id="join-modal" class="join-modal">
+			<div class="join-modal__image-holder">
+				<picture><source srcset="img/modal-join-img.webp" type="image/webp"><img src="img/modal-join-img.jpg" width="800" height="96" alt="image"></picture>
+			</div>
+			<div class="join-modal__inner">
+				<div class="join-modal__header">
+					<h3 class="title">Приєднайся до спільноти!</h3>
+					<div class="join-modal__text-holder paragraph">
+						<p>Заповніть заявку зараз і ми зв'яжемося з вами та дамо всю вичерпну інформацію з цього питання</p>
+					</div>
+				</div>
+				<div class="join-modal__form">
+					<form class="form">
+						<div class="form__inner">
+							<div class="form__input-holder form__input-holder--name">
+								<span>
+									<label for="name-03">Ваше ім'я</label>
+									<span>
+										<span class="form__name-icon _icon-UserRounded"></span>
+										<input id="name-03" type="text" value="" name="phone-client" placeholder="напр. Григорій">
+										<span class="form__clear-icon _icon-X"></span>
+									</span>
+								</span>
+							</div>
+							<div class="form__input-holder form__input-holder--phone">
+								<span>
+									<label for="phone-03">Ваш телефон</label>
+									<span>
+										<span class="form__phone-icon _icon-PhoneCalling"></span>
+										<input id="phone-03" type="tel" value="" name="phone-client" placeholder="+38 (XXX) XXX XX XX">
+										<span class="form__clear-icon _icon-X"></span>
+									</span>
+								</span>
+							</div>
+							<div class="form__input-holder form__input-holder--email">
+								<span>
+									<label for="email-03">Ваш email</label>
+									<span>
+										<span class="form__email-icon _icon-Letter"></span>
+										<input id="email-03" type="tel" value="" name="email-client" placeholder="name@gmail.com">
+										<span class="form__clear-icon _icon-X"></span>
+									</span>
+								</span>
+							</div>
+							<div class="form__textarea-holder">
+								<span>
+									<label for="message-03">Ваш запит</label>
+									<span>
+										<span class="form__textarea-icon _icon-Pen"></span>
+										<textarea id="message-03" aria-required="true" aria-invalid="false" placeholder="Опишіть суть свого звернення" name="message-client"></textarea>
+										<span class="form__clear-icon _icon-X"></span>
+									</span>
+								</span>
+							</div>
+							<div class="form__file-holder">
+								<label class="input-file">
+									<span data-name="file-client"><input accept=".jpeg,.jpg,.png,.txt,.docdocs" aria-invalid="false" type="file" name="file-client"></span>
+									<span class="input-file-btn _icon-Paperclip link link--xs">Додати вкладення</span>
+								</label>
+							</div>
+							<div class="form__button-holder">
+								<button class="button button--m-teal" type="submit">
+									Надіслати
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div style='display: none;' id='consultation-modal' class='consultation-modal'>
+			<div class='consultation-modal__image-holder'>
+				<img src='img/modal-consultation-img.jpg' width='800' height='96' alt='image'>
+			</div>
+			<div class='consultation-modal__inner'>
+				<div class='consultation-modal__header'>
+					<h3 class='title'>Замовлення консультації</h3>
+					<div class='consultation-modal__text-holder paragraph'>
+						<p>Якщо у вас виникли питання, ми з радістю допоможемо і підкажемо, як правильно вчинити</p>
+					</div>
+
+				</div>
+				<div class='consultation-modal__form'>
+					<form class='form'>
+						<div class='form__inner'>
+							<div class='form__input-holder form__input-holder--name'>
+								<span>
+									<label for='name-02'>Ваше ім'я</label>
+									<span>
+										<span class='form__name-icon _icon-UserRounded'></span>
+										<input id='name-02' type='text' value='' name='phone-client' placeholder='напр. Григорій'>
+										<span class='form__clear-icon _icon-X'></span>
+									</span>
+								</span>
+							</div>
+							<div class='form__input-holder form__input-holder--phone'>
+								<span>
+									<label for='phone-02'>Ваш телефон</label>
+									<span>
+										<span class='form__phone-icon _icon-PhoneCalling'></span>
+										<input id='phone-02' type='tel' value='' name='phone-client' placeholder='+38 (XXX) XXX XX XX'>
+										<span class='form__clear-icon _icon-X'></span>
+									</span>
+								</span>
+							</div>
+							<div class='form__button-holder'>
+								<button class='button button--m-teal' type='submit'>
+									Замовити дзвінок
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div style='display: none;' id='thank-modal' class='thank-modal'>
+			<div class='thank-modal__inner'>
+				<div class='thank-modal__left-col'>
+					<div class='thank-modal__icon-holder'>
+						<img src='img/check-icon.svg' width='32' height='32' alt='icon'>
+					</div>
+				</div>
+				<div class='thank-modal__right-col'>
+					<h3 class='title'>Ваше повідомлення
+						отримано!</h3>
+					<div class='thank-modal__text-holder paragraph'>
+						<p>Скоро ми зв'яжемося з вами та обговоримо всі деталі співпраці!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<script src="files/jquery-3.7.1.min.js"></script>
+	<script src="files/jquery.fancybox.min.js"></script>
+	<script src="files/swiper-bundle.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
